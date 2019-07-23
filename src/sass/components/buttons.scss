@@ -1,0 +1,87 @@
+/** Button Styles **/
+
+.button {
+  font-family: "Arame-Bold", sans-serif;
+  background-color: #8cb655;
+  height: 50px;
+  font-size: 13px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  padding: 0 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.3s;
+
+  &:hover {
+    background-color: #A2D461;
+    i {
+      -webkit-transform: translateX(4px);
+      -moz-transform: translateX(4px);
+      -ms-transform: translateX(4px);
+      -o-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+  }
+
+  i {
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+  }
+
+  &:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #85A610;
+  }
+
+  &--transparent {
+    background: none;
+    color: #8cb655;
+  }
+
+  &--border {
+    border: 1px solid #fff;
+  }
+
+  &--border:before,
+  &--inverted:before {
+    background: #8DD929;
+  }
+
+  &--inverted {
+    background: #fff;
+    color: #222222;
+  }
+
+  &--inverted span {
+    color: #222222;
+  }
+
+  &--transparent:before {
+    display: none;
+  }
+
+  &--transparent:hover {
+    background: none;
+  }
+
+}
+
+.button__text {
+  margin-right: 12px;
+}
+
+@media (min-width: 576px) {
+  .button {
+    font-size: 16px;
+  }
+}

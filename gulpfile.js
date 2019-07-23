@@ -6,7 +6,7 @@
 var settings = {
 	clean: true,
 	scripts: true,
-	polyfills: true,
+	polyfills: false,
 	styles: true,
 	svgs: true,
 	copy: true,
@@ -27,7 +27,7 @@ var paths = {
 		output: 'dist/js/'
 	},
 	styles: {
-		input: 'src/sass/**/*.{scss,sass,css}',
+		input: 'src/sass/style.{scss,sass,css}',
 		output: 'dist/css/'
 	},
     img: {
@@ -76,6 +76,7 @@ var flatmap = require('gulp-flatmap');
 var lazypipe = require('lazypipe');
 var rename = require('gulp-rename');
 var header = require('gulp-header');
+var order = require('gulp-order');
 var package = require('./package.json');
 
 // Scripts
@@ -87,6 +88,7 @@ var optimizejs = require('gulp-optimize-js');
 
 // Styles
 var sass = require('gulp-sass');
+var importCss = require('gulp-import-css');
 var prefix = require('gulp-autoprefixer');
 var minify = require('gulp-cssnano');
 
@@ -205,6 +207,7 @@ var buildStyles = function (done) {
 			remove: true
 		}))
 		.pipe(header(banner.full, { package : package }))
+        .pipe(concat('main.css'))
 		.pipe(dest(paths.styles.output))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(minify({

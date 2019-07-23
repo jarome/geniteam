@@ -30,7 +30,8 @@
 	
 
 ---------------------------------------------------------------- */
-@import url(helpers.css);
+@import 'plugins.scss';
+@import 'helpers.scss';
 /* ----------------------------------------------------------------
 	Basic
 -----------------------------------------------------------------*/
@@ -179,94 +180,6 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-}
-
-/** Button Styles **/
-
-.button {
-  font-family: "Arame-Bold", sans-serif;
-  background-color: #8cb655;
-  height: 50px;
-  font-size: 13px;
-  border-radius: 2px;
-  overflow: hidden;
-  position: relative;
-  border: none;
-  padding: 0 20px;
-  color: #FFFFFF;
-  cursor: pointer;
-  transition: background-color ease-in-out 0.3s;
-}
-
-.button:hover {
-  background-color: #A2D461;
-}
-
-.button:hover i {
-   -webkit-transform: translateX(4px);
-   -moz-transform: translateX(4px);
-   -ms-transform: translateX(4px);
-   -o-transform: translateX(4px);
-   transform: translateX(4px);
-}
-
-.button:before {
-  content: '';
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #85A610;
-}
-
-.button__text {
-  margin-right: 12px;
-}
-
-.button i {
-  -webkit-transition: transform 0.3s ease-out;
-  -moz-transition: transform 0.3s ease-out;
-  -ms-transition: transform 0.3s ease-out;
-  -o-transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-}
-
-.button--transparent {
-  background: none;
-  color: #8cb655;
-}
-
-.button--border {
-  border: 1px solid #fff;
-}
-
-.button--border:before,
-.button--inverted:before {
-  background: #8DD929;
-}
-
-.button--inverted {
-  background: #fff;
-  color: #222222;
-}
-
-.button--inverted span {
-  color: #222222;
-}
-
-.button--transparent:before {
-  display: none;
-}
-
-.button--transparent:hover {
-  background: none;
-}
-
-@media (min-width: 576px) {
-  .button {
-    font-size: 16px;
-  }
 }
 
 .valign {
@@ -1983,6 +1896,7 @@ footer .social-icon a:hover i {
     background-repeat: no-repeat;
     background-position: 30%;
   }
+
 }
 
-/*# sourceMappingURL=style.css.map */
+@import 'components/buttons.scss';
