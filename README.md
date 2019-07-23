@@ -1,4 +1,4 @@
-#GeniTeam Website
+# GeniTeam Website
 
 A boilerplate for building web projects with [Gulp](https://gulpjs.com/). Uses Gulp 4.x.
 
