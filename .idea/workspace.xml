@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e10dc3c-c090-48b8-b41f-fa35fdec53c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,7 @@
           <entry key="gitignore" value="3" />
           <entry key="html" value="9" />
           <entry key="js" value="35" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="scss" value="6" />
         </counts>
@@ -36,7 +36,7 @@
         <counts>
           <entry key="CSS" value="16" />
           <entry key="HTML" value="9" />
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="JavaScript" value="35" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -48,7 +48,7 @@
           <entry key="gitignore" value="17" />
           <entry key="html" value="212" />
           <entry key="js" value="228" />
-          <entry key="json" value="1" />
+          <entry key="json" value="143" />
           <entry key="md" value="19" />
           <entry key="scss" value="216" />
         </counts>
@@ -56,7 +56,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="212" />
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="143" />
           <entry key="JavaScript" value="228" />
           <entry key="Markdown" value="19" />
           <entry key="PLAIN_TEXT" value="17" />
@@ -111,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -119,6 +119,15 @@
                 <caret column="2" selection-start-column="2" selection-end-column="2" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -151,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/sass/helpers.scss" />
         <option value="$PROJECT_DIR$/dist/css/plugins/fontawesome-all.min.css" />
         <option value="$PROJECT_DIR$/src/sass/plugins/fontawesome-all.min.css" />
@@ -167,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/copy/index.html" />
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -388,7 +397,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563862389409" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563862487682" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -429,12 +438,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563845051079</updated>
       <workItem from="1563845052250" duration="9702000" />
-      <workItem from="1563858362034" duration="3592000" />
+      <workItem from="1563858362034" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13294000" />
+    <option name="totallyTimeSpent" value="13394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +458,7 @@
     <frame x="320" y="168" width="1920" height="1079" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25292864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25292864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +473,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928064" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -485,13 +494,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/plugins/bootstrap.min.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -708,6 +710,13 @@
             <caret column="2" selection-start-column="2" selection-end-column="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>

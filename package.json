@@ -1,11 +1,11 @@
 {
-	"name": "project-name",
+	"name": "geniteamwebsite",
 	"version": "0.0.1",
-	"description": "A description for your project.",
+	"description": "Static files for GeniTeam website",
 	"main": "./dist/your-main-js-file.js",
 	"author": {
-		"name": "YOUR NAME",
-		"url": "http://link-to-your-website.com"
+		"name": "Moons of Jupiter",
+		"url": "http://www.moonsofjupiter.com.au"
 	},
 	"license": "MIT",
 	"repository": {
