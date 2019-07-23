@@ -1,0 +1,18 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/*plugins*/
+@import url("plugins/bootstrap.min.css");
+@import url("plugins/animate.min.css");
+@import url("plugins/et-line.css");
+@import url("plugins/lity.min.css");
+@import url("plugins/fontawesome-all.min.css");
+@import url("plugins/magnific-popup.css");
+@import url("plugins/YouTubePopUp.css");
+@import url("plugins/owl.carousel.min.css");
+@import url("plugins/owl.theme.default.min.css");

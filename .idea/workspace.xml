@@ -1,16 +1,532 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e10dc3c-c090-48b8-b41f-fa35fdec53c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/copy/fonts/Arame-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/copy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Arame-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/helpers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/YouTubePopUp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/et-line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/fontawesome-all-old.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/lity.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arrow-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg_tech.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/blog2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chevron-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chevron-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/client.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/C_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clients/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dots-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/og_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/popup-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/process/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/process/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/process/popup-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rectangle-selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/select-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/2d-3d-animation-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/2d-3d-art-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/art-work-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/game-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/gamification-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/marketing-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/social/facebook-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/social/googleplus-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/social/instagram-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/social/twitter-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/gcloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/maya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/nodejs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/oculus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/photon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/scala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/unity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/unreal-engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/vive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technologies/z-brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/popup-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/appear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom - backup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.0.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-migrate-3.0.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/marker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/onion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrollIt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/wow.min.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1762426349">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="2" />
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+          <entry key="scss" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SCSS" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="js" value="25" />
+          <entry key="json" value="1" />
+          <entry key="scss" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="25" />
+          <entry key="SCSS" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2754">
+              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/plugins.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/copy/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="1981" column="29" selection-start-line="1981" selection-start-column="29" selection-end-line="1981" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/plugins/fontawesome-all.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="54575" lean-forward="true" selection-start-line="4" selection-start-column="54575" selection-end-line="4" selection-end-column="54575" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/helpers.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/plugins.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arame-bold</find>
+      <find>background</find>
+      <find>copy</find>
+      <find>fa-solid</find>
+      <find>/copy/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/copy/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/sass/helpers.scss" />
+        <option value="$PROJECT_DIR$/src/sass/style.scss" />
+        <option value="$PROJECT_DIR$/dist/css/plugins/fontawesome-all.min.css" />
+        <option value="$PROJECT_DIR$/src/sass/plugins/fontawesome-all.min.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="320" />
     <option name="y" value="168" />
     <option name="width" value="1920" />
     <option name="height" value="1079" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GeniTeam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeniTeam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeniTeam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeniTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeniTeam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeniTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeniTeam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeniTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeniTeam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeniTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563847582638" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/copy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/copy/fonts" />
+      <recent name="$PROJECT_DIR$/src/copy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e10dc3c-c090-48b8-b41f-fa35fdec53c7" name="Default Changelist" comment="" />
+      <created>1563845051079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563845051079</updated>
+      <workItem from="1563845052250" duration="2353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2353000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="320" y="168" width="1920" height="1079" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928064" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/plugins/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/plugins.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/copy/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/plugins.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/helpers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/plugins/fontawesome-all.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7238" column="280" selection-start-line="7238" selection-start-column="280" selection-end-line="7238" selection-end-column="280" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="1981" column="29" selection-start-line="1981" selection-start-column="29" selection-end-line="1981" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/plugins/fontawesome-all.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54575" lean-forward="true" selection-start-line="4" selection-start-column="54575" selection-end-line="4" selection-end-column="54575" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
