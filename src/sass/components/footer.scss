@@ -1,0 +1,56 @@
+/* ----------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------*/
+
+footer {
+  background: #f2f2f2;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer .logo {
+  padding: 0;
+}
+
+.social-icon {
+  display: flex;
+}
+
+footer .social-icon i {
+  font-size: 20px;
+  line-height: 41px;
+}
+
+footer .social-icon a {
+  color: #8cb655;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #8cb655;
+  border-radius: 50%;
+  font-size: 12px;
+  margin: 0 7px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .social-icon a:hover {
+  background: #8cb655;
+}
+
+footer .social-icon a:hover i {
+  color: #ffffff;
+}
+
+.section-footer__copyright {
+  font-size: 14px;
+  opacity: 0.5;
+  color: #222;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .section-footer__copyright {
+    margin-bottom: 0;
+  }
+}

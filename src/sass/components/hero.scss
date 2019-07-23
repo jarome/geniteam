@@ -1,0 +1,107 @@
+/** Hero **/
+
+.hero .intro {
+  padding: 20px 20px;
+  overflow: hidden;
+}
+
+.hero__content {
+  padding: 0 10px;
+  background-position: right 0;
+  background-color: #fff;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero__cta {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 70px 0;
+}
+
+.hero__cta-text {
+  font-family: "Arame-Bold", sans-serif;
+  color: #8cb655;
+  position: relative;
+  top: -12px;
+}
+
+.hero__play-btn {
+  width: 75px;
+  color: #5e7d36;
+  margin-right: 22px;
+  transition: all .3s ease-in-out;
+}
+
+.hero__play-btn:hover {
+  transform: scale(1.1);
+}
+
+.hero__sub-title {
+  font-family: "Oswald", sans-serif;
+}
+
+.hero .feats .item {
+  padding: 80px 30px;
+  border: 1px solid #eee;
+}
+
+.hero .feats .item .icon {
+  font-size: 60px;
+  color: #ffb600;
+  margin-bottom: 50px;
+}
+
+.hero .feats .item h6 {
+  margin-bottom: 20px;
+}
+
+.hero .feats .item .more {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 13px;
+  border-bottom: 1px solid #ccc;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.hero .feats .item .more i {
+  font-size: 10px;
+  -webkit-transition: padding 0.5s;
+  transition: padding 0.5s;
+}
+
+.hero .feats .item .more:hover {
+  color: #ffb600;
+}
+
+.hero .feats .item .more:hover i {
+  padding-left: 5px;
+}
+
+.special {
+  margin-left: 45%;
+  margin-top: 10%;
+  width: auto !important;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .hero__content {
+    background-position: right 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero__content {
+    background-position: top;
+  }
+
+  .hero__cta {
+    margin: 70px 0 70px 0;
+  }
+}

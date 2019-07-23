@@ -1,0 +1,200 @@
+/* ----------------------------------------------------------------
+	Numbers
+-----------------------------------------------------------------*/
+
+.numbers {
+  font-family: "Arame-Bold", sans-serif;
+  height: auto;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.numbers p {
+  font-family: "Arame-Bold", sans-serif;
+}
+
+.numbers .item:hover .icon .back {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  left: 0;
+}
+
+.numbers .item:hover .icon .front {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  left: -100px;
+}
+
+.numbers-item {
+  margin: 20px auto;
+}
+
+.numbers .item .count {
+  height: 77px;
+  margin: 0;
+}
+
+.numbers .item .icon {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 25px;
+  margin: 100px auto 10px;
+  overflow: hidden;
+}
+
+.numbers .item .icon .back {
+  left: 100px;
+}
+
+.numbers .item h2 span {
+  font-size: 30px;
+  font-weight: 400;
+  color: inherit;
+  padding-left: 5px;
+}
+
+
+@media (min-width: 767px)  {
+
+  .numbers {
+    background-attachment: fixed;
+  }
+
+  .numbers .item .icon {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    margin: 100px auto 10px;
+    overflow: hidden;
+  }
+
+  .numbers .item {
+    margin: 30px auto;
+  }
+
+  .numbers .item .icon i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    line-height: 80px;
+    border-radius: 50%;
+  }
+
+  .numbers .item h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: inherit;
+    margin-bottom: 10px;
+  }
+
+  .numbers .item p {
+    font-size: 17px;
+    color: #fff;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .numbers {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .numbers .item .icon {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    margin: 100px auto 10px;
+    overflow: hidden;
+  }
+
+  .numbers .item {
+    margin: 170px auto;
+  }
+
+  .numbers .item .icon i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    line-height: 80px;
+    border-radius: 50%;
+  }
+
+  .numbers .item h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: inherit;
+    margin-bottom: 10px;
+  }
+
+  .numbers .item p {
+    font-size: 17px;
+    color: #fff;
+  }
+}
+
+
+@media (min-width: 1200px)  {
+  .numbers .item {
+    margin: 210px auto;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+  .numbers .item .icon {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    margin: 100px auto 10px;
+    overflow: hidden;
+  }
+
+  .numbers .item .icon i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    line-height: 80px;
+    border-radius: 50%;
+  }
+
+  .numbers .item h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: inherit;
+    margin-bottom: 10px;
+  }
+
+  .numbers .item p {
+    font-size: 17px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,38 @@
+/* ----------------------------------------------------------------
+	Services
+-----------------------------------------------------------------*/
+
+.services .bord {
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+}
+
+.services .custom-bord {
+  margin: 10px 0;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+
+.services .item {
+  padding: 30px 15px;
+}
+
+.services .item:hover .icon {
+  transform: scale(1.3);
+  color: #fff;
+}
+
+.services .item .icon {
+  width: 80px;
+  height: 70px;
+  line-height: 60px;
+  font-size: 30px;
+  margin: 0 auto 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.services .item h6 {
+  margin-bottom: 10px;
+  font-size: 17px;
+}

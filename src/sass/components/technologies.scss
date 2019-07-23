@@ -1,0 +1,25 @@
+/** Technologies **/
+
+.technologies .entity {
+  text-align: center;
+  padding: 30px 0px;
+  background-image: url(../img/rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+
+.technologies .entity:hover {
+  text-align: center;
+  padding: 30px 0px;
+  background-image: url(../img/rectangle-selected.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}

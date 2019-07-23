@@ -94,6 +94,7 @@ var minify = require('gulp-cssnano');
 
 // SVGs
 var svgmin = require('gulp-svgmin');
+var imagemin = require('gulp-imagemin');
 
 // BrowserSync
 var browserSync = require('browser-sync');
@@ -220,6 +221,12 @@ var buildStyles = function (done) {
 
 };
 
+var copyImages = function (done) {
+    return src(paths.img.input)
+        .pipe(imagemin())
+        .pipe(dest(paths.img.output));
+};
+
 // Copy static files into output folder
 var copyFiles = function (done) {
 
@@ -276,6 +283,7 @@ exports.default = series(
 		buildScripts,
 		lintScripts,
 		buildStyles,
+        copyImages,
 		copyFiles
 	)
 );

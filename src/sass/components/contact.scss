@@ -1,0 +1,147 @@
+/* ----------------------------------------------------------------
+	Contact
+-----------------------------------------------------------------*/
+.contact .contact-info {
+  background-attachment: fixed;
+}
+
+.contact .contact-info .icon {
+  padding: 50px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  float: left;
+  font-size: 20px;
+}
+
+.contact .contact-info .cont {
+  margin-left: 30px;
+}
+
+.contact .contact-info h6 {
+  font-family: inherit;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.contact .contact-info p {
+  font-size: 14px;
+}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"],
+.contact .form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #EBEBEB;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+
+.contact .form input[type="text"]:focus,
+.contact .form input[type="email"]:focus,
+.contact .form textarea:focus,
+.contact .form .contact__select:focus {
+  border: 1px solid #8cb655;
+}
+
+.contact .form textarea {
+  height: 175px;
+  max-height: 175px;
+  max-width: 100%;
+}
+
+.contact .form .contact__select {
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  display: block;
+  color: #777;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px;
+  line-height: 1.3;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(../img/select-arrow.png);
+  background-color: #fff;
+  background-repeat: no-repeat, repeat;
+  background-position: right 20px top 50%, 0 0;
+  background-size: .65em auto, 100%;
+}
+
+.contact .form input[type="submit"] {
+  font-family: "Arame-Bold", sans-serif;
+  background-color: #8cb655;
+  height: 50px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  padding: 0 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.contact .form input[type="submit"]:hover {
+  background-color: #A2D461;
+}
+
+.contact .form input[type="submit"]:before {
+  content: '';
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #85A610;
+}
+
+.contact .themap {
+  background: #222;
+  padding: 0 15px;
+}
+
+.contact .themap .map-toggle {
+  color: #fff;
+  padding: 30px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+}
+
+.contact .themap .map-toggle:after {
+  content: "Open The Map";
+  position: relative;
+  cursor: pointer;
+}
+
+.contact .themap .map-toggle i {
+  margin-right: 5px;
+  color: #ffb600;
+  cursor: pointer;
+}
+
+.contact .themap .map-opened:after {
+  content: "Close The Map";
+  position: relative;
+}
+
+.contact .themap .map {
+  display: none;
+  height: 380px;
+  width: 100%;
+  border-bottom: 15px solid #222;
+}
+
+.contact__disclaimer {
+  margin: 40px 0 80px 0;
+  font-size: 13px;
+}

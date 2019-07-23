@@ -1,7 +1,7 @@
 /*!
- * project-name v0.0.1
- * A description for your project.
- * (c) 2019 YOUR NAME
+ * geniteamwebsite v0.0.1
+ * Static files for GeniTeam website
+ * (c) 2019 Moons of Jupiter
  * MIT License
  * http://link-to-your-git-repo.com
  */

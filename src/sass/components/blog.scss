@@ -1,0 +1,57 @@
+/** Blog Updated **/
+
+.blog {
+  background: #f7f7f7;
+}
+
+.blog__item {
+  margin-bottom: 40px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog__item:hover {
+  transform: translateY(-10px);
+}
+
+.blog__content {
+  background: #fff;
+  padding: 30px;
+  min-height: 390px;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog__info {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  margin-bottom: 20px;
+}
+
+.blog__info i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.blog__author {
+  margin-right: 20px;
+}
+
+.blog__title {
+  margin-bottom: 10px;
+}
+
+.blog__description {
+  margin-bottom: 30px;
+}
+
+.blog__read-more {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
