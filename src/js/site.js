@@ -197,7 +197,6 @@ $(window).on("load", function() {
   });
 
   $(".filtering").on("click", "span", function() {
-    debugger;
     $(this)
       .addClass("active")
       .siblings()
@@ -210,8 +209,6 @@ $(window).on("load", function() {
   $("#contact-form").on("submit", function(e) {
     if (!e.isDefaultPrevented()) {
       var url = " ";
-
-      debugger;
 
       $.ajax({
         type: "POST",

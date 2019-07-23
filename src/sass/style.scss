@@ -606,7 +606,11 @@ a:hover {
   }
 
   .header .arrow {
-    bottom: 5vh;
+    bottom: 2vh;
+  }
+
+  .header__list {
+    margin-bottom: 20px;
   }
 
   .header .caption h1 {
@@ -661,7 +665,7 @@ a:hover {
 
 .hero__content {
   padding: 0 10px;
-  background-position: left 440px;
+  background-position: right 0;
   background-color: #fff;
   background-size: cover;
   border-radius: 10px;
@@ -739,7 +743,7 @@ a:hover {
 
 @media (min-width: 576px) {
   .hero__content {
-    background-position: left 350px;
+    background-position: right 0;
   }
 }
 
