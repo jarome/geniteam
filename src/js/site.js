@@ -33,11 +33,17 @@
         - contact form validator
 
 ---------------------------------------------------------------- */
+var isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1);
 
 $(function() {
   "use strict";
 
   var wind = $(window);
+  var $body = $('body');
+
+  if (isSafari) {
+      $body.addClass('is-safari');
+  }
 
   // scrollIt
   $.scrollIt({
@@ -89,6 +95,8 @@ $(function() {
       );
     }
   });
+
+
 
   // === owl-carousel === //
 
@@ -154,11 +162,40 @@ $(function() {
     }
   });
 
-  // countUp
-  $(".numbers .count").countUp({
-    delay: 10,
-    time: 1500
-  });
+
+  // Custom Number Counter
+  $.fn.countMeUp = function(options) {
+
+      return this.each(function() {
+
+        var $this = $(this),
+        countTo = $this.attr('data-count');
+
+        var counterUpper = function() {
+
+          $({countNum: $this.text()}).animate({
+            countNum: countTo
+          },
+          {
+            duration: 2000,
+            easing: 'linear',
+            step: function () {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function () {
+              $this.text(this.countNum);
+            }
+          });
+        };
+
+      $this.waypoint(counterUpper, { offset: '100%', triggerOnce: true });
+    });
+
+  };
+
+  var $counterElements = $('.js-count');
+
+  $counterElements.countMeUp();
 
   // Map Toggle
   $(".themap .map-toggle").on("click", function() {
@@ -177,7 +214,13 @@ $(window).on("load", function() {
   $(".loading").fadeOut(500);
 
   // stellar
-  wind.stellar();
+ // wind.stellar();
+
+  if(!isSafari) {
+    $.stellar({
+        hideDistantElements: false
+    });
+  }
 
   // isotope
   $(".gallery").isotope({

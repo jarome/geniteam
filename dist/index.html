@@ -42,8 +42,20 @@
     <!-- End Loading ====
     	======================================= -->
 
+    <!--<header style="background: #000; position: fixed; height: 100px; width: 100%; top: 0; z-index: 9999; transform: translateZ(0);
+    -webkit-transform: translateZ(0); margin-top:0;  -webkit-backface-visibility: hidden;
+   -webkit-perspective: 1000; -webkit-transform: translate3d(0,0,0);">
+    <div style="background: #000; height: 100px; width: 100%; top: 0; z-index: 9999; transform: translateZ(0);
+    -webkit-transform: translateZ(0);  -webkit-backface-visibility: hidden;
+   -webkit-perspective: 1000; -webkit-transform: translate3d(0,0,0);">weer</div>
+    </header>-->
     <!-- =====================================
+
+
+
     	==== Start Navbar -->
+
+
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="logo" href="#" onclick="tp_link('Logo Clicked','#section1');">
@@ -69,7 +81,6 @@
                 class="nav-link active"
                 href="#"
                 data-scroll-nav="0"
-                onclick="tp_link('1. Home Clicked','#section1');"
                 >Home</a
               >
             </li>
@@ -78,7 +89,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="1"
-                onclick="tp_link('2. About Us Clicked','#section2');"
                 >About Us</a
               >
             </li>
@@ -87,7 +97,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="2"
-                onclick="tp_link('3. Our Services Clicked','#section3');"
                 >Our Services</a
               >
             </li>
@@ -96,7 +105,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="3"
-                onclick="tp_link('4. Our Clients Clicked','#section4');"
                 >Our Clients</a
               >
             </li>
@@ -105,7 +113,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="4"
-                onclick="tp_link('5. Technologies Clicked','#section5');"
                 >Technologies</a
               >
             </li>
@@ -114,7 +121,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="5"
-                onclick="tp_link('6. Latest Blogs Clicked','#section6');"
                 >Blogs</a
               >
             </li>
@@ -123,7 +129,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="6"
-                onclick="tp_link('7. Reviews Clicked','#section7');"
                 >Reviews</a
               >
             </li>
@@ -132,7 +137,6 @@
                 class="nav-link"
                 href="#"
                 data-scroll-nav="7"
-                onclick="tp_link('8. Contact Clicked','#section8');"
                 >Contact</a
               >
             </li>
@@ -156,7 +160,7 @@
     	======================================= -->
 
     <!-- START Header -->
-    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg1.png" data-stellar-background-ratio="0" style="background-size: 100% 100%;">
+    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="0" data-stellar-background-ratio="0" style="background-size: 100% 100%;">
 
       <div class="container">
         <div class="row">
@@ -336,25 +340,24 @@
       class="numbers bg-img text-center"
       data-overlay-dark="0"
       id="numbers"
-      data-background="img/1.png"
     >
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="item mb-md50">
-              <h2 class="count">100</h2>
+              <h2 class="count js-count" data-count="100">0</h2>
               <p>Professionals</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="item mb-md50">
-              <h2 class="count">600</h2>
+              <h2 class="count js-count" data-count="600">0</h2>
               <p>Projects Delivered</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="item mb-sm50">
-              <h2 class="count">10</h2>
+              <h2 class="count js-count" data-count="10">0</h2>
               <p>CONSULTATION</p>
             </div>
           </div>
@@ -878,7 +881,7 @@
 
     <!-- Custom Scripts -->
     <script src="js/validator.min.js"></script>
-    <script src="js/site.min.js"></script>
+    <script src="js/site.js"></script>
 
     <script>
       new WOW().init();

@@ -23572,11 +23572,13 @@ body {
   color: #333;
   line-height: 1.3;
   font-weight: 400;
+  width: 100%;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden !important;
 }
 
-/* line 55, src/sass/style.scss */
+/* line 57, src/sass/style.scss */
 h1,
 h2,
 h3,
@@ -23585,13 +23587,13 @@ h6 {
   font-family: "Arame-Bold", sans-serif;
 }
 
-/* line 63, src/sass/style.scss */
+/* line 65, src/sass/style.scss */
 img {
   width: 100%;
   height: auto;
 }
 
-/* line 68, src/sass/style.scss */
+/* line 70, src/sass/style.scss */
 span,
 a,
 a:hover {
@@ -23600,14 +23602,14 @@ a:hover {
   color: inherit;
 }
 
-/* line 76, src/sass/style.scss */
+/* line 78, src/sass/style.scss */
 .section-head {
   text-align: center;
   margin-bottom: 60px;
   margin-top: 70px;
 }
 
-/* line 82, src/sass/style.scss */
+/* line 84, src/sass/style.scss */
 .section-head h4 {
   font-size: 40px;
   font-weight: 500;
@@ -23615,14 +23617,14 @@ a:hover {
   position: relative;
 }
 
-/* line 89, src/sass/style.scss */
+/* line 91, src/sass/style.scss */
 .section-tech {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 30px;
 }
 
-/* line 95, src/sass/style.scss */
+/* line 97, src/sass/style.scss */
 .section-tech h4 {
   font-size: 40px;
   font-weight: 500;
@@ -23631,12 +23633,12 @@ a:hover {
   color: #fff;
 }
 
-/* line 103, src/sass/style.scss */
+/* line 105, src/sass/style.scss */
 .section-head h4 span {
   font-weight: 700;
 }
 
-/* line 107, src/sass/style.scss */
+/* line 109, src/sass/style.scss */
 .section-head p {
   font-weight: 300;
   font-size: 16px;
@@ -23644,7 +23646,7 @@ a:hover {
   margin-top: 0px;
 }
 
-/* line 114, src/sass/style.scss */
+/* line 116, src/sass/style.scss */
 .section-view-more {
   font-family: "Arame-Bold", sans-serif;
   text-align: right;
@@ -23652,12 +23654,12 @@ a:hover {
   margin-bottom: 50px;
 }
 
-/* line 121, src/sass/style.scss */
+/* line 123, src/sass/style.scss */
 .section-padding {
   padding-bottom: 80px;
 }
 
-/* line 125, src/sass/style.scss */
+/* line 127, src/sass/style.scss */
 .half-imgl {
   position: absolute;
   top: 0;
@@ -23667,7 +23669,7 @@ a:hover {
   background-attachment: fixed;
 }
 
-/* line 134, src/sass/style.scss */
+/* line 136, src/sass/style.scss */
 .half-imgr {
   position: absolute;
   top: 0;
@@ -23677,59 +23679,59 @@ a:hover {
   background-attachment: fixed;
 }
 
-/* line 143, src/sass/style.scss */
+/* line 145, src/sass/style.scss */
 .o-hidden {
   overflow: hidden;
 }
 
-/* line 147, src/sass/style.scss */
+/* line 149, src/sass/style.scss */
 .position-re {
   position: relative;
 }
 
-/* line 151, src/sass/style.scss */
+/* line 153, src/sass/style.scss */
 .full-width {
   width: 100% !important;
 }
 
-/* line 155, src/sass/style.scss */
+/* line 157, src/sass/style.scss */
 .bg-gray {
   background: #f7f7f7;
 }
 
-/* line 158, src/sass/style.scss */
+/* line 160, src/sass/style.scss */
 .bg-gray .owl-theme .owl-dots .owl-dot span {
   background: #777;
 }
 
-/* line 162, src/sass/style.scss */
+/* line 164, src/sass/style.scss */
 .bg-img {
   background-size: auto 100%;
   background-repeat: no-repeat;
   /* height: 100%; */
 }
 
-/* line 168, src/sass/style.scss */
+/* line 170, src/sass/style.scss */
 .img-bg {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* height: 100%; */
 }
 
-/* line 174, src/sass/style.scss */
+/* line 176, src/sass/style.scss */
 .bg-imgg {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 179, src/sass/style.scss */
+/* line 181, src/sass/style.scss */
 .bg-cover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
 
-/* line 185, src/sass/style.scss */
+/* line 187, src/sass/style.scss */
 .valign {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23739,7 +23741,7 @@ a:hover {
   align-items: center;
 }
 
-/* line 194, src/sass/style.scss */
+/* line 196, src/sass/style.scss */
 .v-middle {
   position: absolute;
   width: 100%;
@@ -23749,7 +23751,7 @@ a:hover {
   transform: translate(0%, -50%);
 }
 
-/* line 203, src/sass/style.scss */
+/* line 205, src/sass/style.scss */
 .extra-title {
   font-weight: 800;
   line-height: 1.5;
@@ -23757,7 +23759,7 @@ a:hover {
   /* margin-left: 10%; */
 }
 
-/* line 210, src/sass/style.scss */
+/* line 212, src/sass/style.scss */
 .sub-title {
   letter-spacing: 2px;
   color: #8cb655;
@@ -23766,27 +23768,27 @@ a:hover {
   font-weight: 600;
 }
 
-/* line 218, src/sass/style.scss */
+/* line 220, src/sass/style.scss */
 .owl-theme .owl-dots .owl-dot span {
   width: 8px;
   height: 8px;
   border-radius: 50%;
 }
 
-/* line 224, src/sass/style.scss */
+/* line 226, src/sass/style.scss */
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #8cb655;
 }
 
-/* line 229, src/sass/style.scss */
+/* line 231, src/sass/style.scss */
 .wow {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
 @media (min-width: 280px) and (max-width: 767px) {
-  /* line 235, src/sass/style.scss */
+  /* line 237, src/sass/style.scss */
   .special {
     margin-top: 10% !important;
     margin-left: 0% !important;
@@ -23794,13 +23796,13 @@ a:hover {
   }
 }
 
-/* line 242, src/sass/style.scss */
+/* line 244, src/sass/style.scss */
 .item .prop-text {
   color: #fff;
   font-size: 12px;
 }
 
-/* line 247, src/sass/style.scss */
+/* line 249, src/sass/style.scss */
 #particles-js {
   position: absolute;
   top: 0;
@@ -23810,7 +23812,7 @@ a:hover {
   z-index: 3;
 }
 
-/* line 256, src/sass/style.scss */
+/* line 258, src/sass/style.scss */
 .bg-vid,
 #canvas-basic {
   position: absolute;
@@ -23820,7 +23822,7 @@ a:hover {
   min-height: 100%;
 }
 
-/* line 265, src/sass/style.scss */
+/* line 267, src/sass/style.scss */
 .map-cor {
   position: relative;
   border: #8cb655;
@@ -23831,7 +23833,7 @@ a:hover {
 /* ----------------------------------------------------------------
 	Responsive
 -----------------------------------------------------------------*/
-/* line 277, src/sass/style.scss */
+/* line 279, src/sass/style.scss */
 .popup-bg {
   background-image: url(../img/testimonials/popup-bg.png);
   background-repeat: no-repeat;
@@ -23843,7 +23845,7 @@ a:hover {
   padding-bottom: 10px;
 }
 
-/* line 288, src/sass/style.scss */
+/* line 290, src/sass/style.scss */
 .carousel__item {
   background-size: cover;
   background-repeat: no-repeat;
@@ -23854,7 +23856,7 @@ a:hover {
 }
 
 @media (min-width: 290px) and (max-width: 600px) {
-  /* line 299, src/sass/style.scss */
+  /* line 301, src/sass/style.scss */
   .popup-bg {
     background-image: url(../img/testimonials/popup-bg.png);
     background-repeat: no-repeat;
@@ -23865,7 +23867,7 @@ a:hover {
     padding-right: 12%;
     padding-bottom: 10px;
   }
-  /* line 310, src/sass/style.scss */
+  /* line 312, src/sass/style.scss */
   .carousel-material {
     height: 100vh;
     padding-top: 75%;
@@ -23874,7 +23876,7 @@ a:hover {
 }
 
 @media (min-width: 600px) and (max-width: 785px) {
-  /* line 318, src/sass/style.scss */
+  /* line 320, src/sass/style.scss */
   .popup-bg {
     background-image: url(../img/testimonials/popup-bg.png);
     background-repeat: no-repeat;
@@ -23886,7 +23888,7 @@ a:hover {
     padding-right: 12%;
     padding-bottom: 10px;
   }
-  /* line 330, src/sass/style.scss */
+  /* line 332, src/sass/style.scss */
   .carousel-material {
     height: 100vh;
     padding-top: 60%;
@@ -23895,54 +23897,54 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 338, src/sass/style.scss */
+  /* line 340, src/sass/style.scss */
   .mb-md50 {
     margin-bottom: 50px;
   }
-  /* line 342, src/sass/style.scss */
+  /* line 344, src/sass/style.scss */
   .mb-md30 {
     margin-bottom: 30px;
   }
-  /* line 346, src/sass/style.scss */
+  /* line 348, src/sass/style.scss */
   .mb-md0 {
     margin-bottom: 0;
   }
-  /* line 350, src/sass/style.scss */
+  /* line 352, src/sass/style.scss */
   .half-imgl,
   .half-imgr {
     display: none;
   }
-  /* line 355, src/sass/style.scss */
+  /* line 357, src/sass/style.scss */
   .about .content {
     border-top: 1px solid #eee;
   }
-  /* line 359, src/sass/style.scss */
+  /* line 361, src/sass/style.scss */
   .services .bord {
     border: 0;
   }
-  /* line 362, src/sass/style.scss */
+  /* line 364, src/sass/style.scss */
   .services .custom-bord {
     display: none;
   }
-  /* line 366, src/sass/style.scss */
+  /* line 368, src/sass/style.scss */
   .clients .citem p {
     padding: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 371, src/sass/style.scss */
+  /* line 373, src/sass/style.scss */
   .mb-sm50 {
     margin-bottom: 50px;
   }
-  /* line 375, src/sass/style.scss */
+  /* line 377, src/sass/style.scss */
   .mb-sm30 {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 381, src/sass/style.scss */
+  /* line 383, src/sass/style.scss */
   .lead {
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
@@ -23951,7 +23953,7 @@ a:hover {
 }
 
 @media (min-width: 991px) and (max-width: 1256px) {
-  /* line 388, src/sass/style.scss */
+  /* line 390, src/sass/style.scss */
   .lead {
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
@@ -23960,7 +23962,7 @@ a:hover {
 }
 
 @media (min-width: 1257px) {
-  /* line 395, src/sass/style.scss */
+  /* line 397, src/sass/style.scss */
   .lead {
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
@@ -24071,20 +24073,26 @@ a:hover {
 .header {
   height: 100vh;
   overflow: hidden;
+  background: url(../img/bg1.png);
 }
 
-/* line 8, src/sass/components/header.scss */
+/* line 10, src/sass/components/header.scss */
+.is-safari .header {
+  background: url(../img/bg1.png) no-repeat 50% 0 fixed;
+}
+
+/* line 15, src/sass/components/header.scss */
 .header .caption {
   margin-top: 30px;
   z-index: 9;
 }
 
-/* line 13, src/sass/components/header.scss */
+/* line 20, src/sass/components/header.scss */
 .header__list {
   margin-bottom: 40px;
 }
 
-/* line 17, src/sass/components/header.scss */
+/* line 24, src/sass/components/header.scss */
 .header__bullet {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24094,7 +24102,7 @@ a:hover {
           align-items: center;
 }
 
-/* line 22, src/sass/components/header.scss */
+/* line 29, src/sass/components/header.scss */
 .header__bullet:before {
   content: '';
   height: 4px;
@@ -24103,24 +24111,24 @@ a:hover {
   margin-right: 17px;
 }
 
-/* line 30, src/sass/components/header.scss */
+/* line 37, src/sass/components/header.scss */
 .header__cta-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 34, src/sass/components/header.scss */
+/* line 41, src/sass/components/header.scss */
 .header__cta-button {
   margin-right: 20px;
 }
 
-/* line 38, src/sass/components/header.scss */
+/* line 45, src/sass/components/header.scss */
 .header__cta-button:last-child {
   margin-right: 0;
 }
 
-/* line 42, src/sass/components/header.scss */
+/* line 49, src/sass/components/header.scss */
 .header .caption h5 {
   font-weight: 300;
   width: 55%;
@@ -24131,12 +24139,12 @@ a:hover {
   margin-bottom: 30px;
 }
 
-/* line 52, src/sass/components/header.scss */
+/* line 59, src/sass/components/header.scss */
 .header .caption h5 span {
   font-weight: 600;
 }
 
-/* line 56, src/sass/components/header.scss */
+/* line 63, src/sass/components/header.scss */
 .header .caption h1 {
   font-weight: 500;
   width: 65%;
@@ -24148,7 +24156,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 67, src/sass/components/header.scss */
+/* line 74, src/sass/components/header.scss */
 .header li {
   font-weight: bolder;
   font-size: 15px;
@@ -24161,7 +24169,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 79, src/sass/components/header.scss */
+/* line 86, src/sass/components/header.scss */
 .header .caption p {
   font-weight: 300;
   margin: 5px 0 30px;
@@ -24171,7 +24179,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 88, src/sass/components/header.scss */
+/* line 95, src/sass/components/header.scss */
 .header .arrow {
   position: absolute;
   bottom: 0vh;
@@ -24183,13 +24191,13 @@ a:hover {
   z-index: 8;
 }
 
-/* line 99, src/sass/components/header.scss */
+/* line 106, src/sass/components/header.scss */
 .header .arrow .container {
   text-align: right;
   height: 100%;
 }
 
-/* line 104, src/sass/components/header.scss */
+/* line 111, src/sass/components/header.scss */
 .arrow__read-more {
   background-image: url(../img/arrow-line.png);
   background-position: right;
@@ -24203,19 +24211,19 @@ a:hover {
   transition: all ease-in-out 0.3s;
 }
 
-/* line 116, src/sass/components/header.scss */
+/* line 123, src/sass/components/header.scss */
 .arrow__read-more span {
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
-/* line 120, src/sass/components/header.scss */
+/* line 127, src/sass/components/header.scss */
 .arrow__read-more:hover span {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
 
-/* line 124, src/sass/components/header.scss */
+/* line 131, src/sass/components/header.scss */
 .header .arrow i {
   position: relative;
   display: inline-block;
@@ -24225,7 +24233,7 @@ a:hover {
   line-height: 40px;
 }
 
-/* line 133, src/sass/components/header.scss */
+/* line 140, src/sass/components/header.scss */
 .header .arrow i:after {
   content: "";
   position: absolute;
@@ -24240,7 +24248,7 @@ a:hover {
   transition: all 0.2s;
 }
 
-/* line 147, src/sass/components/header.scss */
+/* line 154, src/sass/components/header.scss */
 .header .arrow i:hover:after {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -24250,15 +24258,15 @@ a:hover {
 }
 
 @media (min-width: 280px) and (max-width: 576px) {
-  /* line 157, src/sass/components/header.scss */
+  /* line 164, src/sass/components/header.scss */
   .header__cta-buttons {
     margin: 0 20px;
   }
-  /* line 161, src/sass/components/header.scss */
+  /* line 168, src/sass/components/header.scss */
   .header__list {
     margin-left: 20px;
   }
-  /* line 165, src/sass/components/header.scss */
+  /* line 172, src/sass/components/header.scss */
   dl,
   ol,
   ul {
@@ -24266,7 +24274,7 @@ a:hover {
     margin-bottom: 1rem;
     margin-left: 10px;
   }
-  /* line 173, src/sass/components/header.scss */
+  /* line 180, src/sass/components/header.scss */
   .header .caption h5 {
     font-weight: 300;
     width: 95%;
@@ -24278,15 +24286,15 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 185, src/sass/components/header.scss */
+  /* line 192, src/sass/components/header.scss */
   .header .arrow {
     bottom: 2vh;
   }
-  /* line 189, src/sass/components/header.scss */
+  /* line 196, src/sass/components/header.scss */
   .header__list {
     margin-bottom: 20px;
   }
-  /* line 193, src/sass/components/header.scss */
+  /* line 200, src/sass/components/header.scss */
   .header .caption h1 {
     font-size: 33px;
     line-height: 1;
@@ -24305,7 +24313,7 @@ a:hover {
 -----------------------------------------------------------------*/
 /* line 5, src/sass/components/navbar.scss */
 .navbar {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -24315,18 +24323,20 @@ a:hover {
   padding-right: 0;
 }
 
-/* line 16, src/sass/components/navbar.scss */
+/* line 22, src/sass/components/navbar.scss */
 .navbar > .container {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 20, src/sass/components/navbar.scss */
+/* line 27, src/sass/components/navbar.scss */
 .navbar .icon-bar {
   color: #fff;
 }
 
-/* line 24, src/sass/components/navbar.scss */
+/* line 31, src/sass/components/navbar.scss */
 .navbar .navbar-nav .nav-link {
   font-size: 13px;
   font-weight: 600;
@@ -24338,14 +24348,14 @@ a:hover {
   transition: all 0.5s;
 }
 
-/* line 35, src/sass/components/navbar.scss */
-.navbar .navbar-nav .active {
+/* line 42, src/sass/components/navbar.scss */
+.navbar .navbar-nav .nav-link.active {
   color: #fff !important;
   background: #70A726;
   display: block;
 }
 
-/* line 41, src/sass/components/navbar.scss */
+/* line 48, src/sass/components/navbar.scss */
 .navbar .navbar-collapse {
   max-height: 340px;
   overflow: auto;
@@ -24355,12 +24365,12 @@ a:hover {
   /**box-shadow: 0 10px 3px rgba(0,0,0,0.4);**/
 }
 
-/* line 50, src/sass/components/navbar.scss */
+/* line 57, src/sass/components/navbar.scss */
 .navbar .nav-link {
   color: #fff !important;
 }
 
-/* line 54, src/sass/components/navbar.scss */
+/* line 61, src/sass/components/navbar.scss */
 .nav-scroll {
   background: #8cb655;
   border-bottom: 0px solid rgba(12, 12, 12, 0.04);
@@ -24368,68 +24378,64 @@ a:hover {
   top: -100px;
   left: 0;
   width: 100%;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
 
-/* line 69, src/sass/components/navbar.scss */
+/* line 72, src/sass/components/navbar.scss */
 .navbar-nav {
   margin-left: 0;
 }
 
-/* line 73, src/sass/components/navbar.scss */
+/* line 76, src/sass/components/navbar.scss */
 .navbar-toggler {
   margin-right: 10px;
   position: relative;
   top: -2px;
 }
 
-/* line 79, src/sass/components/navbar.scss */
+/* line 82, src/sass/components/navbar.scss */
 .navbar-toggler.collapsed .navbar-toggler__collapsed {
   display: block;
 }
 
-/* line 83, src/sass/components/navbar.scss */
+/* line 86, src/sass/components/navbar.scss */
 .navbar-toggler.collapsed .navbar-toggler__expanded {
   display: none;
 }
 
-/* line 87, src/sass/components/navbar.scss */
+/* line 90, src/sass/components/navbar.scss */
 .navbar-toggler .navbar-toggler__collapsed {
   display: none;
 }
 
-/* line 92, src/sass/components/navbar.scss */
+/* line 95, src/sass/components/navbar.scss */
 .navbar-toggler .navbar-toggler__expanded {
   display: block;
 }
 
-/* line 96, src/sass/components/navbar.scss */
+/* line 99, src/sass/components/navbar.scss */
 .navbar-toggler .navbar-toggler__collapsed i,
 .navbar-toggler .navbar-toggler__expanded i {
   font-size: 24px;
 }
 
-/* line 101, src/sass/components/navbar.scss */
+/* line 104, src/sass/components/navbar.scss */
 .navbar-toggler.collapsed .navbar-toggler__collapsed {
   display: block;
 }
 
-/* line 105, src/sass/components/navbar.scss */
+/* line 108, src/sass/components/navbar.scss */
 .nav-scroll .icon-bar {
   color: #fff;
 }
 
-/* line 109, src/sass/components/navbar.scss */
+/* line 112, src/sass/components/navbar.scss */
 .nav-scroll .navbar-nav .nav-link {
   color: #fff;
 }
 
-/* line 113, src/sass/components/navbar.scss */
+/* line 116, src/sass/components/navbar.scss */
 .nav__contact-us {
   background: #ffffff;
   height: 45px;
@@ -24444,12 +24450,12 @@ a:hover {
   transition: background-color ease-in-out 0.3s;
 }
 
-/* line 126, src/sass/components/navbar.scss */
+/* line 129, src/sass/components/navbar.scss */
 .nav__contact-us:hover {
   background-color: #A2D461;
 }
 
-/* line 130, src/sass/components/navbar.scss */
+/* line 133, src/sass/components/navbar.scss */
 .logo {
   padding: 15px 0;
   width: 140px;
@@ -24457,7 +24463,7 @@ a:hover {
   margin-right: 30px;
 }
 
-/* line 137, src/sass/components/navbar.scss */
+/* line 140, src/sass/components/navbar.scss */
 .prettyW {
   width: 80%;
   height: auto;
@@ -24465,43 +24471,57 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-  /* line 144, src/sass/components/navbar.scss */
+  /* line 147, src/sass/components/navbar.scss */
   .container {
     max-width: 100%;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 152, src/sass/components/navbar.scss */
+  /* line 155, src/sass/components/navbar.scss */
   .navbar-expand-lg .navbar-nav {
     max-height: 96px;
     overflow: hidden;
   }
-  /* line 157, src/sass/components/navbar.scss */
+  /* line 160, src/sass/components/navbar.scss */
   .logo {
     margin-left: 0;
   }
-  /* line 161, src/sass/components/navbar.scss */
+  /* line 164, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link {
+    position: relative;
     padding: 2.5rem 1rem;
     margin: 0 5px;
   }
   /* line 166, src/sass/components/navbar.scss */
-  .navbar .navbar-nav .active {
+  .navbar .navbar-nav .nav-link:before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: #fff;
+    top: -3px;
+    left: 0;
+  }
+  /* line 182, src/sass/components/navbar.scss */
+  .navbar .navbar-nav .nav-link.active {
     color: #fff !important;
     content: "";
-    border-top: 2px solid;
     background: inherit;
   }
-  /* line 173, src/sass/components/navbar.scss */
+  /* line 183, src/sass/components/navbar.scss */
+  .navbar .navbar-nav .nav-link.active:before {
+    top: 0;
+  }
+  /* line 191, src/sass/components/navbar.scss */
   .navbar {
     padding: 0;
   }
-  /* line 177, src/sass/components/navbar.scss */
+  /* line 195, src/sass/components/navbar.scss */
   .navbar-nav {
     margin-left: 0;
   }
-  /* line 181, src/sass/components/navbar.scss */
+  /* line 199, src/sass/components/navbar.scss */
   .navbar .navbar-collapse {
     background: transparent;
     padding: 0;
@@ -24689,45 +24709,76 @@ a:hover {
 /* ----------------------------------------------------------------
 	Numbers
 -----------------------------------------------------------------*/
-/* line 5, src/sass/components/numbers.scss */
+/* ----------------------------------------------------------------
+	Numbers
+-----------------------------------------------------------------*/
+/* line 9, src/sass/components/numbers.scss */
+.fixed-background--header {
+  background: url(../img/bg1.png);
+  z-index: -1;
+}
+
+/* line 14, src/sass/components/numbers.scss */
+.fixed-background--numbers {
+  background: url(../img/1.png);
+  z-index: -2;
+}
+
+/* line 19, src/sass/components/numbers.scss */
+.fixed-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  -webkit-transform: translateZ(0);
+  pointer-events: none;
+  content: '';
+}
+
+/* line 33, src/sass/components/numbers.scss */
 .numbers {
+  background-image: url(../img/1.png);
   font-family: "Arame-Bold", sans-serif;
   height: auto;
   padding-bottom: 70px;
   padding-top: 70px;
 }
 
-/* line 12, src/sass/components/numbers.scss */
+/* line 42, src/sass/components/numbers.scss */
 .numbers p {
   font-family: "Arame-Bold", sans-serif;
 }
 
-/* line 16, src/sass/components/numbers.scss */
+/* line 46, src/sass/components/numbers.scss */
 .numbers .item:hover .icon .back {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   left: 0;
 }
 
-/* line 22, src/sass/components/numbers.scss */
+/* line 52, src/sass/components/numbers.scss */
 .numbers .item:hover .icon .front {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   left: -100px;
 }
 
-/* line 28, src/sass/components/numbers.scss */
+/* line 58, src/sass/components/numbers.scss */
 .numbers-item {
   margin: 20px auto;
 }
 
-/* line 32, src/sass/components/numbers.scss */
+/* line 62, src/sass/components/numbers.scss */
 .numbers .item .count {
   height: 77px;
   margin: 0;
 }
 
-/* line 37, src/sass/components/numbers.scss */
+/* line 67, src/sass/components/numbers.scss */
 .numbers .item .icon {
   position: relative;
   display: inline-block;
@@ -24741,12 +24792,12 @@ a:hover {
   overflow: hidden;
 }
 
-/* line 50, src/sass/components/numbers.scss */
+/* line 80, src/sass/components/numbers.scss */
 .numbers .item .icon .back {
   left: 100px;
 }
 
-/* line 54, src/sass/components/numbers.scss */
+/* line 84, src/sass/components/numbers.scss */
 .numbers .item h2 span {
   font-size: 30px;
   font-weight: 400;
@@ -24755,11 +24806,15 @@ a:hover {
 }
 
 @media (min-width: 767px) {
-  /* line 64, src/sass/components/numbers.scss */
+  /* line 94, src/sass/components/numbers.scss */
   .numbers {
     background-attachment: fixed;
   }
-  /* line 68, src/sass/components/numbers.scss */
+  /* line 96, src/sass/components/numbers.scss */
+  .numbers.bg-img {
+    background-size: cover;
+  }
+  /* line 101, src/sass/components/numbers.scss */
   .numbers .item .icon {
     position: relative;
     display: inline-block;
@@ -24772,11 +24827,11 @@ a:hover {
     margin: 100px auto 10px;
     overflow: hidden;
   }
-  /* line 81, src/sass/components/numbers.scss */
+  /* line 114, src/sass/components/numbers.scss */
   .numbers .item {
     margin: 30px auto;
   }
-  /* line 85, src/sass/components/numbers.scss */
+  /* line 118, src/sass/components/numbers.scss */
   .numbers .item .icon i {
     position: absolute;
     width: 100%;
@@ -24786,7 +24841,7 @@ a:hover {
     line-height: 80px;
     border-radius: 50%;
   }
-  /* line 95, src/sass/components/numbers.scss */
+  /* line 128, src/sass/components/numbers.scss */
   .numbers .item h2 {
     color: #fff;
     font-size: 50px;
@@ -24794,7 +24849,7 @@ a:hover {
     font-family: inherit;
     margin-bottom: 10px;
   }
-  /* line 103, src/sass/components/numbers.scss */
+  /* line 136, src/sass/components/numbers.scss */
   .numbers .item p {
     font-size: 17px;
     color: #fff;
@@ -24802,12 +24857,12 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-  /* line 111, src/sass/components/numbers.scss */
+  /* line 144, src/sass/components/numbers.scss */
   .numbers {
     padding-top: 0;
     padding-bottom: 0;
   }
-  /* line 116, src/sass/components/numbers.scss */
+  /* line 149, src/sass/components/numbers.scss */
   .numbers .item .icon {
     position: relative;
     display: inline-block;
@@ -24820,11 +24875,11 @@ a:hover {
     margin: 100px auto 10px;
     overflow: hidden;
   }
-  /* line 129, src/sass/components/numbers.scss */
+  /* line 162, src/sass/components/numbers.scss */
   .numbers .item {
     margin: 170px auto;
   }
-  /* line 133, src/sass/components/numbers.scss */
+  /* line 166, src/sass/components/numbers.scss */
   .numbers .item .icon i {
     position: absolute;
     width: 100%;
@@ -24834,7 +24889,7 @@ a:hover {
     line-height: 80px;
     border-radius: 50%;
   }
-  /* line 143, src/sass/components/numbers.scss */
+  /* line 176, src/sass/components/numbers.scss */
   .numbers .item h2 {
     color: #fff;
     font-size: 60px;
@@ -24842,7 +24897,7 @@ a:hover {
     font-family: inherit;
     margin-bottom: 10px;
   }
-  /* line 151, src/sass/components/numbers.scss */
+  /* line 184, src/sass/components/numbers.scss */
   .numbers .item p {
     font-size: 17px;
     color: #fff;
@@ -24850,14 +24905,14 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-  /* line 159, src/sass/components/numbers.scss */
+  /* line 192, src/sass/components/numbers.scss */
   .numbers .item {
     margin: 210px auto;
   }
 }
 
 @media (min-width: 280px) and (max-width: 767px) {
-  /* line 165, src/sass/components/numbers.scss */
+  /* line 198, src/sass/components/numbers.scss */
   .numbers .item .icon {
     position: relative;
     display: inline-block;
@@ -24870,7 +24925,7 @@ a:hover {
     margin: 100px auto 10px;
     overflow: hidden;
   }
-  /* line 178, src/sass/components/numbers.scss */
+  /* line 211, src/sass/components/numbers.scss */
   .numbers .item .icon i {
     position: absolute;
     width: 100%;
@@ -24880,7 +24935,7 @@ a:hover {
     line-height: 80px;
     border-radius: 50%;
   }
-  /* line 188, src/sass/components/numbers.scss */
+  /* line 221, src/sass/components/numbers.scss */
   .numbers .item h2 {
     color: #fff;
     font-size: 50px;
@@ -24888,7 +24943,7 @@ a:hover {
     font-family: inherit;
     margin-bottom: 10px;
   }
-  /* line 196, src/sass/components/numbers.scss */
+  /* line 229, src/sass/components/numbers.scss */
   .numbers .item p {
     font-size: 17px;
     color: #fff;
@@ -24899,6 +24954,11 @@ a:hover {
 	Clients
 -----------------------------------------------------------------*/
 /* line 5, src/sass/components/clients.scss */
+.client {
+  background: #ffffff;
+}
+
+/* line 9, src/sass/components/clients.scss */
 .client .item {
   text-align: center;
   padding: 30px 0px;
@@ -24908,7 +24968,7 @@ a:hover {
   transition: all 0.5s;
 }
 
-/* line 14, src/sass/components/clients.scss */
+/* line 18, src/sass/components/clients.scss */
 .client .item:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);

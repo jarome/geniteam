@@ -2,11 +2,41 @@
 	Numbers
 -----------------------------------------------------------------*/
 
+/* ----------------------------------------------------------------
+	Numbers
+-----------------------------------------------------------------*/
+
+.fixed-background--header {
+  background: url(../img/bg1.png);
+  z-index: -1;
+}
+
+.fixed-background--numbers {
+  background: url(../img/1.png);
+  z-index: -2;
+}
+
+.fixed-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  -webkit-transform: translateZ(0);
+  pointer-events: none;
+  content: '';
+}
+
 .numbers {
+  background-image: url(../img/1.png);
   font-family: "Arame-Bold", sans-serif;
   height: auto;
   padding-bottom: 70px;
   padding-top: 70px;
+
 }
 
 .numbers p {
@@ -63,6 +93,9 @@
 
   .numbers {
     background-attachment: fixed;
+    &.bg-img  {
+      background-size: cover;
+    }
   }
 
   .numbers .item .icon {
