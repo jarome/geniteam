@@ -24073,26 +24073,20 @@ a:hover {
 .header {
   height: 100vh;
   overflow: hidden;
-  background: url(../img/bg1.png);
 }
 
-/* line 10, src/sass/components/header.scss */
-.is-safari .header {
-  background: url(../img/bg1.png) no-repeat 50% 0 fixed;
-}
-
-/* line 15, src/sass/components/header.scss */
+/* line 8, src/sass/components/header.scss */
 .header .caption {
   margin-top: 30px;
   z-index: 9;
 }
 
-/* line 20, src/sass/components/header.scss */
+/* line 13, src/sass/components/header.scss */
 .header__list {
   margin-bottom: 40px;
 }
 
-/* line 24, src/sass/components/header.scss */
+/* line 17, src/sass/components/header.scss */
 .header__bullet {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24102,7 +24096,7 @@ a:hover {
           align-items: center;
 }
 
-/* line 29, src/sass/components/header.scss */
+/* line 22, src/sass/components/header.scss */
 .header__bullet:before {
   content: '';
   height: 4px;
@@ -24111,24 +24105,24 @@ a:hover {
   margin-right: 17px;
 }
 
-/* line 37, src/sass/components/header.scss */
+/* line 30, src/sass/components/header.scss */
 .header__cta-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 41, src/sass/components/header.scss */
+/* line 34, src/sass/components/header.scss */
 .header__cta-button {
   margin-right: 20px;
 }
 
-/* line 45, src/sass/components/header.scss */
+/* line 38, src/sass/components/header.scss */
 .header__cta-button:last-child {
   margin-right: 0;
 }
 
-/* line 49, src/sass/components/header.scss */
+/* line 42, src/sass/components/header.scss */
 .header .caption h5 {
   font-weight: 300;
   width: 55%;
@@ -24139,12 +24133,12 @@ a:hover {
   margin-bottom: 30px;
 }
 
-/* line 59, src/sass/components/header.scss */
+/* line 52, src/sass/components/header.scss */
 .header .caption h5 span {
   font-weight: 600;
 }
 
-/* line 63, src/sass/components/header.scss */
+/* line 56, src/sass/components/header.scss */
 .header .caption h1 {
   font-weight: 500;
   width: 65%;
@@ -24156,7 +24150,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 74, src/sass/components/header.scss */
+/* line 67, src/sass/components/header.scss */
 .header li {
   font-weight: bolder;
   font-size: 15px;
@@ -24169,7 +24163,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 86, src/sass/components/header.scss */
+/* line 79, src/sass/components/header.scss */
 .header .caption p {
   font-weight: 300;
   margin: 5px 0 30px;
@@ -24179,7 +24173,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 95, src/sass/components/header.scss */
+/* line 88, src/sass/components/header.scss */
 .header .arrow {
   position: absolute;
   bottom: 0vh;
@@ -24191,13 +24185,13 @@ a:hover {
   z-index: 8;
 }
 
-/* line 106, src/sass/components/header.scss */
+/* line 99, src/sass/components/header.scss */
 .header .arrow .container {
   text-align: right;
   height: 100%;
 }
 
-/* line 111, src/sass/components/header.scss */
+/* line 104, src/sass/components/header.scss */
 .arrow__read-more {
   background-image: url(../img/arrow-line.png);
   background-position: right;
@@ -24211,19 +24205,19 @@ a:hover {
   transition: all ease-in-out 0.3s;
 }
 
-/* line 123, src/sass/components/header.scss */
+/* line 116, src/sass/components/header.scss */
 .arrow__read-more span {
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
-/* line 127, src/sass/components/header.scss */
+/* line 120, src/sass/components/header.scss */
 .arrow__read-more:hover span {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
 
-/* line 131, src/sass/components/header.scss */
+/* line 124, src/sass/components/header.scss */
 .header .arrow i {
   position: relative;
   display: inline-block;
@@ -24233,7 +24227,7 @@ a:hover {
   line-height: 40px;
 }
 
-/* line 140, src/sass/components/header.scss */
+/* line 133, src/sass/components/header.scss */
 .header .arrow i:after {
   content: "";
   position: absolute;
@@ -24248,7 +24242,7 @@ a:hover {
   transition: all 0.2s;
 }
 
-/* line 154, src/sass/components/header.scss */
+/* line 147, src/sass/components/header.scss */
 .header .arrow i:hover:after {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -24257,16 +24251,23 @@ a:hover {
   transition: all 0.5s;
 }
 
+@media (min-width: 992px) {
+  /* line 156, src/sass/components/header.scss */
+  .header {
+    background-attachment: fixed;
+  }
+}
+
 @media (min-width: 280px) and (max-width: 576px) {
-  /* line 164, src/sass/components/header.scss */
+  /* line 163, src/sass/components/header.scss */
   .header__cta-buttons {
     margin: 0 20px;
   }
-  /* line 168, src/sass/components/header.scss */
+  /* line 167, src/sass/components/header.scss */
   .header__list {
     margin-left: 20px;
   }
-  /* line 172, src/sass/components/header.scss */
+  /* line 171, src/sass/components/header.scss */
   dl,
   ol,
   ul {
@@ -24274,7 +24275,7 @@ a:hover {
     margin-bottom: 1rem;
     margin-left: 10px;
   }
-  /* line 180, src/sass/components/header.scss */
+  /* line 179, src/sass/components/header.scss */
   .header .caption h5 {
     font-weight: 300;
     width: 95%;
@@ -24286,15 +24287,15 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 192, src/sass/components/header.scss */
+  /* line 191, src/sass/components/header.scss */
   .header .arrow {
     bottom: 2vh;
   }
-  /* line 196, src/sass/components/header.scss */
+  /* line 195, src/sass/components/header.scss */
   .header__list {
     margin-bottom: 20px;
   }
-  /* line 200, src/sass/components/header.scss */
+  /* line 199, src/sass/components/header.scss */
   .header .caption h1 {
     font-size: 33px;
     line-height: 1;

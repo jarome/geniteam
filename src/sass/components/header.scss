@@ -3,13 +3,6 @@
 .header {
   height: 100vh;
   overflow: hidden;
-  background: url(../img/bg1.png);
-}
-
-.is-safari {
-  .header {
-    background: url(../img/bg1.png) no-repeat 50% 0 fixed;
-  }
 }
 
 .header .caption {
@@ -157,6 +150,12 @@
   opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+@media (min-width: 992px)  {
+  .header {
+    background-attachment: fixed;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 576px) {
