@@ -30,7 +30,3 @@ Make sure these are installed first.
 	- `gulp watch` automatically compiles files and applies changes using [BrowserSync](https://browsersync.io/) when you make changes to your source files.
 
 **Try it out.** After installing, run `gulp` to compile some test files into the `dist` directory. Or, run `gulp watch` and make some changes to see them recompile automatically.
-
-## License
-
-The code is available under the [MIT License](LICENSE.md).
