@@ -8,34 +8,8 @@
 
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: Infinity
-	Theme URI: http://
-	Description: The Multi-Purpose Onepage Template
-	Author: themezey
-	Author URI: http://themeforest.net/user/themezey
+	Theme Name: GeniTeam
 	Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-
-	== Table Of Content
-
-		01 Basic
-		02 Navbar
-		03 Header
-		04 Hero
-		05 About
-		06 Portfolio
-		07 Services
-		08 Team
-		09 Numbers
-		10 Price
-		11 Testimonials
-		12 Blog
-		13 Contact
-		14 Footer
-		15 Responsive
-	
 
 ---------------------------------------------------------------- */
 /*plugins*/
@@ -23557,7 +23531,7 @@ p {
 /* ----------------------------------------------------------------
 	Basic
 -----------------------------------------------------------------*/
-/* line 38, src/sass/style.scss */
+/* line 12, src/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -23567,7 +23541,7 @@ p {
   list-style: none;
 }
 
-/* line 47, src/sass/style.scss */
+/* line 21, src/sass/style.scss */
 body {
   color: #333;
   line-height: 1.3;
@@ -23578,7 +23552,7 @@ body {
   overflow-x: hidden !important;
 }
 
-/* line 57, src/sass/style.scss */
+/* line 31, src/sass/style.scss */
 h1,
 h2,
 h3,
@@ -23587,13 +23561,13 @@ h6 {
   font-family: "Arame-Bold", sans-serif;
 }
 
-/* line 65, src/sass/style.scss */
+/* line 39, src/sass/style.scss */
 img {
   width: 100%;
   height: auto;
 }
 
-/* line 70, src/sass/style.scss */
+/* line 44, src/sass/style.scss */
 span,
 a,
 a:hover {
@@ -23602,14 +23576,14 @@ a:hover {
   color: inherit;
 }
 
-/* line 78, src/sass/style.scss */
+/* line 52, src/sass/style.scss */
 .section-head {
   text-align: center;
   margin-bottom: 60px;
   margin-top: 70px;
 }
 
-/* line 84, src/sass/style.scss */
+/* line 58, src/sass/style.scss */
 .section-head h4 {
   font-size: 40px;
   font-weight: 500;
@@ -23617,14 +23591,14 @@ a:hover {
   position: relative;
 }
 
-/* line 91, src/sass/style.scss */
+/* line 65, src/sass/style.scss */
 .section-tech {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 30px;
 }
 
-/* line 97, src/sass/style.scss */
+/* line 71, src/sass/style.scss */
 .section-tech h4 {
   font-size: 40px;
   font-weight: 500;
@@ -23633,12 +23607,12 @@ a:hover {
   color: #fff;
 }
 
-/* line 105, src/sass/style.scss */
+/* line 79, src/sass/style.scss */
 .section-head h4 span {
   font-weight: 700;
 }
 
-/* line 109, src/sass/style.scss */
+/* line 83, src/sass/style.scss */
 .section-head p {
   font-weight: 300;
   font-size: 16px;
@@ -23646,7 +23620,7 @@ a:hover {
   margin-top: 0px;
 }
 
-/* line 116, src/sass/style.scss */
+/* line 90, src/sass/style.scss */
 .section-view-more {
   font-family: "Arame-Bold", sans-serif;
   text-align: right;
@@ -23654,12 +23628,12 @@ a:hover {
   margin-bottom: 50px;
 }
 
-/* line 123, src/sass/style.scss */
+/* line 97, src/sass/style.scss */
 .section-padding {
   padding-bottom: 80px;
 }
 
-/* line 127, src/sass/style.scss */
+/* line 101, src/sass/style.scss */
 .half-imgl {
   position: absolute;
   top: 0;
@@ -23669,7 +23643,7 @@ a:hover {
   background-attachment: fixed;
 }
 
-/* line 136, src/sass/style.scss */
+/* line 110, src/sass/style.scss */
 .half-imgr {
   position: absolute;
   top: 0;
@@ -23679,59 +23653,59 @@ a:hover {
   background-attachment: fixed;
 }
 
-/* line 145, src/sass/style.scss */
+/* line 119, src/sass/style.scss */
 .o-hidden {
   overflow: hidden;
 }
 
-/* line 149, src/sass/style.scss */
+/* line 123, src/sass/style.scss */
 .position-re {
   position: relative;
 }
 
-/* line 153, src/sass/style.scss */
+/* line 127, src/sass/style.scss */
 .full-width {
   width: 100% !important;
 }
 
-/* line 157, src/sass/style.scss */
+/* line 131, src/sass/style.scss */
 .bg-gray {
   background: #f7f7f7;
 }
 
-/* line 160, src/sass/style.scss */
+/* line 134, src/sass/style.scss */
 .bg-gray .owl-theme .owl-dots .owl-dot span {
   background: #777;
 }
 
-/* line 164, src/sass/style.scss */
+/* line 138, src/sass/style.scss */
 .bg-img {
   background-size: auto 100%;
   background-repeat: no-repeat;
   /* height: 100%; */
 }
 
-/* line 170, src/sass/style.scss */
+/* line 144, src/sass/style.scss */
 .img-bg {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* height: 100%; */
 }
 
-/* line 176, src/sass/style.scss */
+/* line 150, src/sass/style.scss */
 .bg-imgg {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 181, src/sass/style.scss */
+/* line 155, src/sass/style.scss */
 .bg-cover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
 
-/* line 187, src/sass/style.scss */
+/* line 161, src/sass/style.scss */
 .valign {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23741,7 +23715,7 @@ a:hover {
   align-items: center;
 }
 
-/* line 196, src/sass/style.scss */
+/* line 170, src/sass/style.scss */
 .v-middle {
   position: absolute;
   width: 100%;
@@ -23751,7 +23725,7 @@ a:hover {
   transform: translate(0%, -50%);
 }
 
-/* line 205, src/sass/style.scss */
+/* line 179, src/sass/style.scss */
 .extra-title {
   font-weight: 800;
   line-height: 1.5;
@@ -23759,7 +23733,7 @@ a:hover {
   /* margin-left: 10%; */
 }
 
-/* line 212, src/sass/style.scss */
+/* line 186, src/sass/style.scss */
 .sub-title {
   letter-spacing: 2px;
   color: #8cb655;
@@ -23768,41 +23742,32 @@ a:hover {
   font-weight: 600;
 }
 
-/* line 220, src/sass/style.scss */
+/* line 194, src/sass/style.scss */
 .owl-theme .owl-dots .owl-dot span {
   width: 8px;
   height: 8px;
   border-radius: 50%;
 }
 
-/* line 226, src/sass/style.scss */
+/* line 200, src/sass/style.scss */
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #8cb655;
 }
 
-/* line 231, src/sass/style.scss */
+/* line 205, src/sass/style.scss */
 .wow {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-@media (min-width: 280px) and (max-width: 767px) {
-  /* line 237, src/sass/style.scss */
-  .special {
-    margin-top: 10% !important;
-    margin-left: 0% !important;
-    width: auto !important;
-  }
-}
-
-/* line 244, src/sass/style.scss */
+/* line 210, src/sass/style.scss */
 .item .prop-text {
   color: #fff;
   font-size: 12px;
 }
 
-/* line 249, src/sass/style.scss */
+/* line 215, src/sass/style.scss */
 #particles-js {
   position: absolute;
   top: 0;
@@ -23812,7 +23777,7 @@ a:hover {
   z-index: 3;
 }
 
-/* line 258, src/sass/style.scss */
+/* line 224, src/sass/style.scss */
 .bg-vid,
 #canvas-basic {
   position: absolute;
@@ -23822,7 +23787,7 @@ a:hover {
   min-height: 100%;
 }
 
-/* line 267, src/sass/style.scss */
+/* line 233, src/sass/style.scss */
 .map-cor {
   position: relative;
   border: #8cb655;
@@ -23833,7 +23798,7 @@ a:hover {
 /* ----------------------------------------------------------------
 	Responsive
 -----------------------------------------------------------------*/
-/* line 279, src/sass/style.scss */
+/* line 245, src/sass/style.scss */
 .popup-bg {
   background-image: url(../img/testimonials/popup-bg.png);
   background-repeat: no-repeat;
@@ -23845,7 +23810,7 @@ a:hover {
   padding-bottom: 10px;
 }
 
-/* line 290, src/sass/style.scss */
+/* line 256, src/sass/style.scss */
 .carousel__item {
   background-size: cover;
   background-repeat: no-repeat;
@@ -23855,8 +23820,17 @@ a:hover {
   padding-top: 25%;
 }
 
+@media (min-width: 280px) and (max-width: 767px) {
+  /* line 266, src/sass/style.scss */
+  .special {
+    margin-top: 10% !important;
+    margin-left: 0% !important;
+    width: auto !important;
+  }
+}
+
 @media (min-width: 290px) and (max-width: 600px) {
-  /* line 301, src/sass/style.scss */
+  /* line 274, src/sass/style.scss */
   .popup-bg {
     background-image: url(../img/testimonials/popup-bg.png);
     background-repeat: no-repeat;
@@ -23867,7 +23841,7 @@ a:hover {
     padding-right: 12%;
     padding-bottom: 10px;
   }
-  /* line 312, src/sass/style.scss */
+  /* line 285, src/sass/style.scss */
   .carousel-material {
     height: 100vh;
     padding-top: 75%;
@@ -23876,7 +23850,7 @@ a:hover {
 }
 
 @media (min-width: 600px) and (max-width: 785px) {
-  /* line 320, src/sass/style.scss */
+  /* line 293, src/sass/style.scss */
   .popup-bg {
     background-image: url(../img/testimonials/popup-bg.png);
     background-repeat: no-repeat;
@@ -23888,7 +23862,7 @@ a:hover {
     padding-right: 12%;
     padding-bottom: 10px;
   }
-  /* line 332, src/sass/style.scss */
+  /* line 305, src/sass/style.scss */
   .carousel-material {
     height: 100vh;
     padding-top: 60%;
@@ -23897,54 +23871,54 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 340, src/sass/style.scss */
+  /* line 313, src/sass/style.scss */
   .mb-md50 {
     margin-bottom: 50px;
   }
-  /* line 344, src/sass/style.scss */
+  /* line 317, src/sass/style.scss */
   .mb-md30 {
     margin-bottom: 30px;
   }
-  /* line 348, src/sass/style.scss */
+  /* line 321, src/sass/style.scss */
   .mb-md0 {
     margin-bottom: 0;
   }
-  /* line 352, src/sass/style.scss */
+  /* line 325, src/sass/style.scss */
   .half-imgl,
   .half-imgr {
     display: none;
   }
-  /* line 357, src/sass/style.scss */
+  /* line 330, src/sass/style.scss */
   .about .content {
     border-top: 1px solid #eee;
   }
-  /* line 361, src/sass/style.scss */
+  /* line 334, src/sass/style.scss */
   .services .bord {
     border: 0;
   }
-  /* line 364, src/sass/style.scss */
+  /* line 337, src/sass/style.scss */
   .services .custom-bord {
     display: none;
   }
-  /* line 368, src/sass/style.scss */
+  /* line 341, src/sass/style.scss */
   .clients .citem p {
     padding: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 373, src/sass/style.scss */
+  /* line 346, src/sass/style.scss */
   .mb-sm50 {
     margin-bottom: 50px;
   }
-  /* line 377, src/sass/style.scss */
+  /* line 350, src/sass/style.scss */
   .mb-sm30 {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 383, src/sass/style.scss */
+  /* line 356, src/sass/style.scss */
   .lead {
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
@@ -23953,7 +23927,7 @@ a:hover {
 }
 
 @media (min-width: 991px) and (max-width: 1256px) {
-  /* line 390, src/sass/style.scss */
+  /* line 363, src/sass/style.scss */
   .lead {
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
@@ -23962,7 +23936,7 @@ a:hover {
 }
 
 @media (min-width: 1257px) {
-  /* line 397, src/sass/style.scss */
+  /* line 370, src/sass/style.scss */
   .lead {
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
@@ -24324,7 +24298,7 @@ a:hover {
   padding-right: 0;
 }
 
-/* line 22, src/sass/components/navbar.scss */
+/* line 16, src/sass/components/navbar.scss */
 .navbar > .container {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -24332,33 +24306,33 @@ a:hover {
   padding-left: 0;
 }
 
-/* line 27, src/sass/components/navbar.scss */
+/* line 21, src/sass/components/navbar.scss */
 .navbar .icon-bar {
   color: #fff;
 }
 
-/* line 31, src/sass/components/navbar.scss */
+/* line 25, src/sass/components/navbar.scss */
 .navbar .navbar-nav .nav-link {
   font-size: 13px;
   font-weight: 600;
   color: #eee;
   letter-spacing: 0.5px;
-  padding: 2.5rem 0;
+  padding: 1.2rem 0;
   margin: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-/* line 42, src/sass/components/navbar.scss */
+/* line 36, src/sass/components/navbar.scss */
 .navbar .navbar-nav .nav-link.active {
   color: #fff !important;
   background: #70A726;
   display: block;
 }
 
-/* line 48, src/sass/components/navbar.scss */
+/* line 42, src/sass/components/navbar.scss */
 .navbar .navbar-collapse {
-  max-height: 340px;
+  max-height: 520px;
   overflow: auto;
   text-align: center;
   padding: 0;
@@ -24366,12 +24340,12 @@ a:hover {
   /**box-shadow: 0 10px 3px rgba(0,0,0,0.4);**/
 }
 
-/* line 57, src/sass/components/navbar.scss */
+/* line 52, src/sass/components/navbar.scss */
 .navbar .nav-link {
   color: #fff !important;
 }
 
-/* line 61, src/sass/components/navbar.scss */
+/* line 56, src/sass/components/navbar.scss */
 .nav-scroll {
   background: #8cb655;
   border-bottom: 0px solid rgba(12, 12, 12, 0.04);
@@ -24383,60 +24357,60 @@ a:hover {
   transform: translateY(100px);
 }
 
-/* line 72, src/sass/components/navbar.scss */
+/* line 67, src/sass/components/navbar.scss */
 .navbar-nav {
   margin-left: 0;
 }
 
-/* line 76, src/sass/components/navbar.scss */
+/* line 71, src/sass/components/navbar.scss */
 .navbar-toggler {
   margin-right: 10px;
   position: relative;
   top: -2px;
 }
 
-/* line 82, src/sass/components/navbar.scss */
+/* line 77, src/sass/components/navbar.scss */
 .navbar-toggler.collapsed .navbar-toggler__collapsed {
   display: block;
 }
 
-/* line 86, src/sass/components/navbar.scss */
+/* line 81, src/sass/components/navbar.scss */
 .navbar-toggler.collapsed .navbar-toggler__expanded {
   display: none;
 }
 
-/* line 90, src/sass/components/navbar.scss */
+/* line 85, src/sass/components/navbar.scss */
 .navbar-toggler .navbar-toggler__collapsed {
   display: none;
 }
 
-/* line 95, src/sass/components/navbar.scss */
+/* line 90, src/sass/components/navbar.scss */
 .navbar-toggler .navbar-toggler__expanded {
   display: block;
 }
 
-/* line 99, src/sass/components/navbar.scss */
+/* line 94, src/sass/components/navbar.scss */
 .navbar-toggler .navbar-toggler__collapsed i,
 .navbar-toggler .navbar-toggler__expanded i {
   font-size: 24px;
 }
 
-/* line 104, src/sass/components/navbar.scss */
+/* line 99, src/sass/components/navbar.scss */
 .navbar-toggler.collapsed .navbar-toggler__collapsed {
   display: block;
 }
 
-/* line 108, src/sass/components/navbar.scss */
+/* line 103, src/sass/components/navbar.scss */
 .nav-scroll .icon-bar {
   color: #fff;
 }
 
-/* line 112, src/sass/components/navbar.scss */
+/* line 107, src/sass/components/navbar.scss */
 .nav-scroll .navbar-nav .nav-link {
   color: #fff;
 }
 
-/* line 116, src/sass/components/navbar.scss */
+/* line 111, src/sass/components/navbar.scss */
 .nav__contact-us {
   background: #ffffff;
   height: 45px;
@@ -24451,12 +24425,12 @@ a:hover {
   transition: background-color ease-in-out 0.3s;
 }
 
-/* line 129, src/sass/components/navbar.scss */
+/* line 124, src/sass/components/navbar.scss */
 .nav__contact-us:hover {
   background-color: #A2D461;
 }
 
-/* line 133, src/sass/components/navbar.scss */
+/* line 128, src/sass/components/navbar.scss */
 .logo {
   padding: 15px 0;
   width: 140px;
@@ -24464,7 +24438,7 @@ a:hover {
   margin-right: 30px;
 }
 
-/* line 140, src/sass/components/navbar.scss */
+/* line 135, src/sass/components/navbar.scss */
 .prettyW {
   width: 80%;
   height: auto;
@@ -24472,29 +24446,29 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-  /* line 147, src/sass/components/navbar.scss */
+  /* line 142, src/sass/components/navbar.scss */
   .container {
     max-width: 100%;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 155, src/sass/components/navbar.scss */
+  /* line 150, src/sass/components/navbar.scss */
   .navbar-expand-lg .navbar-nav {
     max-height: 96px;
     overflow: hidden;
   }
-  /* line 160, src/sass/components/navbar.scss */
+  /* line 155, src/sass/components/navbar.scss */
   .logo {
     margin-left: 0;
   }
-  /* line 164, src/sass/components/navbar.scss */
+  /* line 159, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link {
     position: relative;
     padding: 2.5rem 1rem;
     margin: 0 5px;
   }
-  /* line 166, src/sass/components/navbar.scss */
+  /* line 161, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link:before {
     content: '';
     width: 100%;
@@ -24504,25 +24478,25 @@ a:hover {
     top: -3px;
     left: 0;
   }
-  /* line 182, src/sass/components/navbar.scss */
+  /* line 177, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link.active {
     color: #fff !important;
     content: "";
     background: inherit;
   }
-  /* line 183, src/sass/components/navbar.scss */
+  /* line 178, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link.active:before {
     top: 0;
   }
-  /* line 191, src/sass/components/navbar.scss */
+  /* line 186, src/sass/components/navbar.scss */
   .navbar {
     padding: 0;
   }
-  /* line 195, src/sass/components/navbar.scss */
+  /* line 190, src/sass/components/navbar.scss */
   .navbar-nav {
     margin-left: 0;
   }
-  /* line 199, src/sass/components/navbar.scss */
+  /* line 194, src/sass/components/navbar.scss */
   .navbar .navbar-collapse {
     background: transparent;
     padding: 0;

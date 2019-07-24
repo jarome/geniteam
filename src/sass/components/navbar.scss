@@ -13,12 +13,6 @@
   padding-right: 0;
 }
 
-.is-safari {
-  .nav-scroll {
-    //position: -webkit-sticky;
-  }
-}
-
 .navbar>.container {
   transform: translate3d(0,0,0);
   padding-right: 0;
@@ -33,7 +27,7 @@
   font-weight: 600;
   color: #eee;
   letter-spacing: 0.5px;
-  padding: 2.5rem 0;
+  padding: 1.2rem 0;
   margin: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -46,7 +40,8 @@
 }
 
 .navbar .navbar-collapse {
-  max-height: 340px;
+  max-height: 520px;
+
   overflow: auto;
   text-align: center;
   padding: 0;

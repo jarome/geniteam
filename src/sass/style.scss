@@ -1,33 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: Infinity
-	Theme URI: http://
-	Description: The Multi-Purpose Onepage Template
-	Author: themezey
-	Author URI: http://themeforest.net/user/themezey
+	Theme Name: GeniTeam
 	Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-
-	== Table Of Content
-
-		01 Basic
-		02 Navbar
-		03 Header
-		04 Hero
-		05 About
-		06 Portfolio
-		07 Services
-		08 Team
-		09 Numbers
-		10 Price
-		11 Testimonials
-		12 Blog
-		13 Contact
-		14 Footer
-		15 Responsive
-	
 
 ---------------------------------------------------------------- */
 @import 'plugins.scss';
@@ -233,14 +207,6 @@ a:hover {
   animation-delay: 0.2s;
 }
 
-@media (min-width: 280px) and (max-width: 767px) {
-  .special {
-    margin-top: 10% !important;
-    margin-left: 0% !important;
-    width: auto !important;
-  }
-}
-
 .item .prop-text {
   color: #fff;
   font-size: 12px;
@@ -296,6 +262,13 @@ a:hover {
   padding-top: 25%;
 }
 
+@media (min-width: 280px) and (max-width: 767px) {
+  .special {
+    margin-top: 10% !important;
+    margin-left: 0% !important;
+    width: auto !important;
+  }
+}
 
 @media (min-width: 290px) and (max-width: 600px) {
   .popup-bg {
