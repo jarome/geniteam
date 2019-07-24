@@ -57,20 +57,6 @@
       }
     }));
 
-    // progress bar
-    wind.on("scroll", (function() {
-      $(".skills-progress span").each((function() {
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        var myVal = $(this).attr("data-value");
-        if (bottom_of_window > bottom_of_object) {
-          $(this).css({
-            width: myVal
-          });
-        }
-      }));
-    }));
-
     // sections background image from data background
     var pageSection = $(".bg-img, section");
     pageSection.each((function(indx) {
@@ -91,15 +77,6 @@
       mouseDrag: false,
       autoplay: false,
       smartSpeed: 500
-    });
-
-    // magnificPopup
-    $(".gallery").magnificPopup({
-      delegate: "a.popimg",
-      type: "image",
-      gallery: {
-        enabled: true
-      }
     });
 
     // Custom Number Counter - Replacing legacy CountUp jQuery plugin
@@ -182,36 +159,4 @@
     }));
   }));
 
-  // Slider
-  $(document).ready((function() {
-    var owl = $(".header .owl-carousel");
-
-    owl.on("changed.owl.carousel", (function(event) {
-      var item = event.item.index - 2; // Position of the current item
-      $("h5").removeClass("animated fadeInUp");
-      $("h1").removeClass("animated fadeInUp");
-      $("p").removeClass("animated fadeInUp");
-      $(".buton").removeClass("animated zoomIn");
-      $(".owl-item")
-        .not(".cloned")
-        .eq(item)
-        .find("h5")
-        .addClass("animated fadeInUp");
-      $(".owl-item")
-        .not(".cloned")
-        .eq(item)
-        .find("h1")
-        .addClass("animated fadeInUp");
-      $(".owl-item")
-        .not(".cloned")
-        .eq(item)
-        .find("p")
-        .addClass("animated fadeInUp");
-      $(".owl-item")
-        .not(".cloned")
-        .eq(item)
-        .find(".buton")
-        .addClass("animated zoomIn");
-    }));
-  }));
 })();
