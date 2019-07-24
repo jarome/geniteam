@@ -28,7 +28,7 @@
     var $body = $('body');
 
     if (isSafari) {
-        $body.addClass('is-safari');
+      $body.addClass('is-safari');
     }
 
     // scrollIt
@@ -71,7 +71,7 @@
     // Testimonials owlCarousel
     $(".clients .owl-carousel").owlCarousel({
       items: 1,
-        nav:true,
+      nav:true,
       loop: true,
       margin: 0,
       mouseDrag: false,
