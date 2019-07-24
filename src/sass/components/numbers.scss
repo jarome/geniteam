@@ -89,7 +89,7 @@
 }
 
 
-@media (min-width: 767px)  {
+@media only screen and (min-width: 767px)  {
 
   .numbers {
     background-attachment: fixed;
@@ -139,7 +139,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 
   .numbers {
     padding-top: 0;
@@ -188,13 +188,13 @@
 }
 
 
-@media (min-width: 1200px)  {
+@media only screen and (min-width: 1200px)  {
   .numbers .item {
     margin: 210px auto;
   }
 }
 
-@media (min-width: 280px) and (max-width: 767px) {
+@media only screen and (min-width: 280px) and (max-width: 767px) {
   .numbers .item .icon {
     position: relative;
     display: inline-block;

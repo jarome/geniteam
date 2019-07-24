@@ -269,7 +269,7 @@
   margin: 40px 0 0;
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
 
   .review-carousel__dialogue {
     width: 70%;
@@ -279,7 +279,7 @@
   }
 }
 
-@media (min-width: 786px) {
+@media only screen and (min-width: 786px) {
 
   .review-carousel .owl-dots {
     bottom: 150px;
@@ -300,7 +300,7 @@
   }
 }
 
-@media (min-width: 992px)  {
+@media only screen and (min-width: 992px)  {
 
   .review-carousel .carousel__item {
     height: 1000px;
@@ -342,7 +342,7 @@
 
 }
 
-@media (min-width: 1200px)  {
+@media only screen and (min-width: 1200px)  {
   .review-carousel .carousel__item {
     height: 1000px;
   }

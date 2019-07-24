@@ -24035,7 +24035,7 @@ a:hover {
   margin-right: 12px;
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   /* line 84, src/sass/components/buttons.scss */
   .button {
     font-size: 16px;
@@ -24225,14 +24225,14 @@ a:hover {
   transition: all 0.5s;
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   /* line 156, src/sass/components/header.scss */
   .header {
     background-attachment: fixed;
   }
 }
 
-@media (min-width: 280px) and (max-width: 576px) {
+@media only screen and (min-width: 280px) and (max-width: 576px) {
   /* line 163, src/sass/components/header.scss */
   .header__cta-buttons {
     margin: 0 20px;
@@ -24445,14 +24445,14 @@ a:hover {
   margin-left: 10%;
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   /* line 142, src/sass/components/navbar.scss */
   .container {
     max-width: 100%;
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   /* line 150, src/sass/components/navbar.scss */
   .navbar-expand-lg .navbar-nav {
     max-height: 96px;
@@ -24618,14 +24618,14 @@ a:hover {
   margin-top: 20px;
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   /* line 94, src/sass/components/hero.scss */
   .hero__content {
     background-position: right 0;
   }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   /* line 100, src/sass/components/hero.scss */
   .hero__content {
     background-position: top;
@@ -24780,7 +24780,7 @@ a:hover {
   padding-left: 5px;
 }
 
-@media (min-width: 767px) {
+@media only screen and (min-width: 767px) {
   /* line 94, src/sass/components/numbers.scss */
   .numbers {
     background-attachment: fixed;
@@ -24831,7 +24831,7 @@ a:hover {
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   /* line 144, src/sass/components/numbers.scss */
   .numbers {
     padding-top: 0;
@@ -24879,14 +24879,14 @@ a:hover {
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   /* line 192, src/sass/components/numbers.scss */
   .numbers .item {
     margin: 210px auto;
   }
 }
 
-@media (min-width: 280px) and (max-width: 767px) {
+@media only screen and (min-width: 280px) and (max-width: 767px) {
   /* line 198, src/sass/components/numbers.scss */
   .numbers .item .icon {
     position: relative;
@@ -25289,7 +25289,7 @@ a:hover {
   margin: 40px 0 0;
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   /* line 274, src/sass/components/reviews.scss */
   .review-carousel__dialogue {
     width: 70%;
@@ -25300,7 +25300,7 @@ a:hover {
   }
 }
 
-@media (min-width: 786px) {
+@media only screen and (min-width: 786px) {
   /* line 284, src/sass/components/reviews.scss */
   .review-carousel .owl-dots {
     bottom: 150px;
@@ -25321,7 +25321,7 @@ a:hover {
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   /* line 305, src/sass/components/reviews.scss */
   .review-carousel .carousel__item {
     height: 1000px;
@@ -25367,7 +25367,7 @@ a:hover {
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   /* line 346, src/sass/components/reviews.scss */
   .review-carousel .carousel__item {
     height: 1000px;
@@ -25702,7 +25702,7 @@ footer .social-icon a:hover i {
   margin-bottom: 30px;
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   /* line 53, src/sass/components/footer.scss */
   .section-footer__copyright {
     margin-bottom: 0;

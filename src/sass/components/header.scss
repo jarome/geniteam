@@ -152,13 +152,13 @@
   transition: all 0.5s;
 }
 
-@media (min-width: 992px)  {
+@media only screen and (min-width: 992px)  {
   .header {
     background-attachment: fixed;
   }
 }
 
-@media (min-width: 280px) and (max-width: 576px) {
+@media only screen and (min-width: 280px) and (max-width: 576px) {
 
   .header__cta-buttons {
     margin: 0 20px;

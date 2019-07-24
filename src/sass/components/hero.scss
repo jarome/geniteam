@@ -90,13 +90,13 @@
   margin-top: 20px;
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   .hero__content {
     background-position: right 0;
   }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .hero__content {
     background-position: top;
   }
