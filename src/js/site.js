@@ -117,10 +117,14 @@
     if(isMobile) {
       wind.stellar();
     }
-    // contact form validator
-    $("#contact-form").validator();
 
-    $("#contact-form").on("submit", function(e) {
+    // contact form validator
+
+    var $contactForm = $('#contact-form');
+
+    $contactForm.validator();
+
+    $contactForm.on("submit", function(e) {
       if (!e.isDefaultPrevented()) {
         var url = " ";
 
@@ -139,10 +143,10 @@
               messageText +
               "</div>";
             if (messageAlert && messageText) {
-              $("#contact-form")
+              $contactForm
                 .find(".messages")
                 .html(alertBox);
-              $("#contact-form")[0].reset();
+              $contactForm[0].reset();
             }
           }
         });
