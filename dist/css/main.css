@@ -24045,7 +24045,7 @@ a:hover {
 /** Header **/
 /* line 3, src/sass/components/header.scss */
 .header {
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -24080,51 +24080,99 @@ a:hover {
 }
 
 /* line 30, src/sass/components/header.scss */
+.header .caption h1, .header .caption h5, .header__list, .header__cta-buttons {
+  -webkit-transition: all ease-out 0.7s;
+  transition: all ease-out 0.7s;
+}
+
+/* line 34, src/sass/components/header.scss */
 .header__cta-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  opacity: 0;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
 }
 
-/* line 34, src/sass/components/header.scss */
+/* line 41, src/sass/components/header.scss */
 .header__cta-button {
   margin-right: 20px;
 }
 
-/* line 38, src/sass/components/header.scss */
+/* line 45, src/sass/components/header.scss */
 .header__cta-button:last-child {
   margin-right: 0;
 }
 
-/* line 42, src/sass/components/header.scss */
-.header .caption h5 {
-  font-weight: 300;
-  width: 55%;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-bottom: 30px;
-}
-
-/* line 52, src/sass/components/header.scss */
-.header .caption h5 span {
-  font-weight: 600;
-}
-
-/* line 56, src/sass/components/header.scss */
+/* line 49, src/sass/components/header.scss */
 .header .caption h1 {
   font-weight: 500;
   width: 65%;
   line-height: 51px;
   margin: 10px 0 15px 0;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
+  opacity: 0;
+}
+
+/* line 58, src/sass/components/header.scss */
+.header .caption h5 {
+  font-weight: 300;
+  width: 55%;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  margin-bottom: 30px;
+  opacity: 0;
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
 }
 
 /* line 67, src/sass/components/header.scss */
+.header .caption h5 span {
+  font-weight: 600;
+}
+
+/* line 71, src/sass/components/header.scss */
+.header__list {
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
+  opacity: 0;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+/* line 79, src/sass/components/header.scss */
+.loaded .header .caption h1 {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+/* line 84, src/sass/components/header.scss */
+.loaded .header .caption h5 {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+/* line 89, src/sass/components/header.scss */
+.loaded .header__cta-buttons {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+/* line 94, src/sass/components/header.scss */
+.loaded .header__list {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+/* line 101, src/sass/components/header.scss */
 .header li {
   font-weight: bolder;
   font-size: 15px;
@@ -24137,7 +24185,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 79, src/sass/components/header.scss */
+/* line 113, src/sass/components/header.scss */
 .header .caption p {
   font-weight: 300;
   margin: 5px 0 30px;
@@ -24147,7 +24195,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 88, src/sass/components/header.scss */
+/* line 122, src/sass/components/header.scss */
 .header .arrow {
   position: absolute;
   bottom: 0vh;
@@ -24159,13 +24207,13 @@ a:hover {
   z-index: 8;
 }
 
-/* line 99, src/sass/components/header.scss */
+/* line 133, src/sass/components/header.scss */
 .header .arrow .container {
   text-align: right;
   height: 100%;
 }
 
-/* line 104, src/sass/components/header.scss */
+/* line 138, src/sass/components/header.scss */
 .arrow__read-more {
   background-image: url(../img/arrow-line.png);
   background-position: right;
@@ -24177,21 +24225,31 @@ a:hover {
   font-family: "Arame-Bold", sans-serif;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
 }
 
-/* line 116, src/sass/components/header.scss */
+/* line 152, src/sass/components/header.scss */
+.loaded .arrow__read-more {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all ease-in-out 1s;
+  transition: all ease-in-out 1s;
+}
+
+/* line 159, src/sass/components/header.scss */
 .arrow__read-more span {
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
-/* line 120, src/sass/components/header.scss */
+/* line 163, src/sass/components/header.scss */
 .arrow__read-more:hover span {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
 
-/* line 124, src/sass/components/header.scss */
+/* line 167, src/sass/components/header.scss */
 .header .arrow i {
   position: relative;
   display: inline-block;
@@ -24201,7 +24259,7 @@ a:hover {
   line-height: 40px;
 }
 
-/* line 133, src/sass/components/header.scss */
+/* line 176, src/sass/components/header.scss */
 .header .arrow i:after {
   content: "";
   position: absolute;
@@ -24216,7 +24274,7 @@ a:hover {
   transition: all 0.2s;
 }
 
-/* line 147, src/sass/components/header.scss */
+/* line 190, src/sass/components/header.scss */
 .header .arrow i:hover:after {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -24226,22 +24284,34 @@ a:hover {
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 156, src/sass/components/header.scss */
+  /* line 199, src/sass/components/header.scss */
   .header {
     background-attachment: fixed;
   }
 }
 
 @media only screen and (min-width: 280px) and (max-width: 576px) {
-  /* line 163, src/sass/components/header.scss */
+  /* line 206, src/sass/components/header.scss */
+  .header {
+    padding: 50px 0 90px 0;
+  }
+  /* line 210, src/sass/components/header.scss */
   .header__cta-buttons {
     margin: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  /* line 167, src/sass/components/header.scss */
+  /* line 213, src/sass/components/header.scss */
+  .header__cta-buttons .button:first-child {
+    margin-bottom: 15px;
+  }
+  /* line 218, src/sass/components/header.scss */
   .header__list {
     margin-left: 20px;
   }
-  /* line 171, src/sass/components/header.scss */
+  /* line 222, src/sass/components/header.scss */
   dl,
   ol,
   ul {
@@ -24249,7 +24319,7 @@ a:hover {
     margin-bottom: 1rem;
     margin-left: 10px;
   }
-  /* line 179, src/sass/components/header.scss */
+  /* line 230, src/sass/components/header.scss */
   .header .caption h5 {
     font-weight: 300;
     width: 95%;
@@ -24261,15 +24331,15 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 191, src/sass/components/header.scss */
+  /* line 242, src/sass/components/header.scss */
   .header .arrow {
     bottom: 2vh;
   }
-  /* line 195, src/sass/components/header.scss */
+  /* line 246, src/sass/components/header.scss */
   .header__list {
     margin-bottom: 20px;
   }
-  /* line 199, src/sass/components/header.scss */
+  /* line 250, src/sass/components/header.scss */
   .header .caption h1 {
     font-size: 33px;
     line-height: 1;
@@ -24280,6 +24350,20 @@ a:hover {
     animation-delay: 0.7s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /* line 264, src/sass/components/header.scss */
+  .header {
+    padding: 30px 0 60px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 270, src/sass/components/header.scss */
+  .header {
+    padding: 0;
   }
 }
 
@@ -24475,28 +24559,37 @@ a:hover {
     height: 3px;
     position: absolute;
     background: #fff;
-    top: -3px;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
     left: 0;
+    top: 0;
+    -webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
   }
-  /* line 177, src/sass/components/navbar.scss */
+  /* line 173, src/sass/components/navbar.scss */
+  .navbar .navbar-nav .nav-link:hover:before {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  /* line 184, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link.active {
     color: #fff !important;
-    content: "";
     background: inherit;
   }
-  /* line 178, src/sass/components/navbar.scss */
+  /* line 185, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link.active:before {
-    top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
-  /* line 186, src/sass/components/navbar.scss */
+  /* line 192, src/sass/components/navbar.scss */
   .navbar {
     padding: 0;
   }
-  /* line 190, src/sass/components/navbar.scss */
+  /* line 196, src/sass/components/navbar.scss */
   .navbar-nav {
     margin-left: 0;
   }
-  /* line 194, src/sass/components/navbar.scss */
+  /* line 200, src/sass/components/navbar.scss */
   .navbar .navbar-collapse {
     background: transparent;
     padding: 0;

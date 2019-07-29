@@ -164,11 +164,18 @@
       height: 3px;
       position: absolute;
       background: #fff;
-      top: -3px;
+      transform: translateY(-3px);
       left: 0;
-     //-webkit-transition: top ease-in-out 0.2s;
-      //transition: top ease-in-out 0.2s;
+      top: 0;
+      transition: all ease-in-out 0.2s;
+    }
+    &:hover {
+      &:before {
+        transform: translateY(0);
+        //-webkit-transition: top ease-in-out 0.2s;
+        //transition: top ease-in-out 0.2s;
 
+      }
     }
     padding: 2.5rem 1rem;
     margin: 0 5px;
@@ -176,10 +183,9 @@
 
   .navbar .navbar-nav .nav-link.active {
     &:before {
-      top: 0;
+      transform: translateY(0);
     }
     color: #fff !important;
-    content: "";
     background: inherit;
   }
 

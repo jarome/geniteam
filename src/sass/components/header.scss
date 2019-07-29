@@ -1,7 +1,7 @@
 /** Header **/
 
 .header {
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -27,8 +27,15 @@
   margin-right: 17px;
 }
 
+.header .caption h1, .header .caption h5, .header__list, .header__cta-buttons  {
+  transition: all ease-out 0.7s;
+}
+
 .header__cta-buttons {
   display: flex;
+  transform: translateY(100px);
+  opacity: 0;
+  transition-delay: 0.4s;
 }
 
 .header__cta-button {
@@ -39,29 +46,56 @@
   margin-right: 0;
 }
 
+.header .caption h1 {
+  font-weight: 500;
+  width: 65%;
+  line-height: 51px;
+  margin: 10px 0 15px 0;
+  transform: translateX(-400px);
+  opacity: 0;
+}
+
 .header .caption h5 {
   font-weight: 300;
   width: 55%;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  transition-delay: 0.2s;
   margin-bottom: 30px;
+  opacity: 0;
+  transform: translateX(-400px);
 }
 
 .header .caption h5 span {
   font-weight: 600;
 }
 
-.header .caption h1 {
-  font-weight: 500;
-  width: 65%;
-  line-height: 51px;
-  margin: 10px 0 15px 0;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+.header__list {
+  transform: translateX(-400px);
+  opacity: 0;
+  transition-delay: 0.3s;
+}
+
+.loaded {
+
+  .header .caption h1 {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .header .caption h5 {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .header__cta-buttons {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .header__list {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
 }
 
 .header li {
@@ -110,7 +144,16 @@
   padding-right: 20px;
   font-size: 14px;
   font-family: "Arame-Bold", sans-serif;
-  transition: all ease-in-out 0.3s
+  transition: all ease-in-out 0.3s;
+  transform: translateY(100px);
+}
+
+.loaded {
+  .arrow__read-more {
+    transform: translateY(0);
+    transition: all ease-in-out 1s;
+
+  }
 }
 
 .arrow__read-more span {
@@ -160,8 +203,16 @@
 
 @media only screen and (min-width: 280px) and (max-width: 576px) {
 
+  .header {
+    padding: 50px 0 90px 0;
+  }
+
   .header__cta-buttons {
     margin: 0 20px;
+    flex-direction: column;
+    .button:first-child {
+      margin-bottom: 15px;
+    }
   }
 
   .header__list {
@@ -206,5 +257,17 @@
     animation-delay: 0.7s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .header {
+    padding: 30px 0 60px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 0;
   }
 }
