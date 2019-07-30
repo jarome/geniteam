@@ -105,20 +105,18 @@
 
     $counterElements.countMeUp();
 
-    $('.header').ripples({
-      dropRadius: 40,
-      perturbance: 0.03,
-      resolution: 512
-    });
-
   });
 
   $(window).on("load", function() {
     var wind = $(window);
-    $('body').addClass('loaded');
+
 
     // Preloader
     $(".loading").fadeOut(500);
+
+    setTimeout(function() {
+      $('body').addClass('loaded');
+    }, 700);
 
     // stellar
     if(isMobile) {

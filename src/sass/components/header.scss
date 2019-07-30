@@ -29,6 +29,7 @@
 
 .header .caption h1, .header .caption h5, .header__list, .header__cta-buttons  {
   transition: all ease-out 0.7s;
+  will-change: transform;
 }
 
 .header__cta-buttons {
@@ -203,6 +204,9 @@
 
 @media only screen and (min-width: 280px) and (max-width: 576px) {
 
+  .header .caption h1  {
+  }
+
   .header {
     padding: 50px 0 90px 0;
   }
@@ -232,8 +236,6 @@
     width: 95%;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -255,8 +257,6 @@
     margin: 20px 20px;
     -webkit-animation-delay: 0.7s;
     animation-delay: 0.7s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
   }
 }
 

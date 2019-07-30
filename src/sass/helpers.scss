@@ -885,7 +885,8 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000;
+  background-color: #fff;
+  color: #8cb655;
   z-index: 9999999999999;
 }
 
@@ -907,7 +908,7 @@ p {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: #fff;
+  background: #8cb655;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 .lds-ellipsis div:nth-child(1) {
