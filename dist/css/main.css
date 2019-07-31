@@ -24547,7 +24547,7 @@ a:hover {
   /* line 159, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link {
     position: relative;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 0.7rem;
     margin: 0 5px;
   }
   /* line 161, src/sass/components/navbar.scss */
