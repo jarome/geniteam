@@ -24361,7 +24361,7 @@ a:hover {
 @media only screen and (min-width: 768px) {
   /* line 270, src/sass/components/header.scss */
   .header {
-    padding: 0;
+    padding: 30px 0 0 0;
   }
 }
 
@@ -24535,22 +24535,22 @@ a:hover {
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 150, src/sass/components/navbar.scss */
+  /* line 154, src/sass/components/navbar.scss */
   .navbar-expand-lg .navbar-nav {
     max-height: 96px;
     overflow: hidden;
   }
-  /* line 155, src/sass/components/navbar.scss */
+  /* line 159, src/sass/components/navbar.scss */
   .logo {
     margin-left: 0;
   }
-  /* line 159, src/sass/components/navbar.scss */
+  /* line 163, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link {
     position: relative;
-    padding: 2.5rem 0.7rem;
-    margin: 0 5px;
+    padding: 2.5rem 0.4rem;
+    margin: 0 8px;
   }
-  /* line 161, src/sass/components/navbar.scss */
+  /* line 165, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link:before {
     content: '';
     width: 100%;
@@ -24564,35 +24564,43 @@ a:hover {
     -webkit-transition: all ease-in-out 0.2s;
     transition: all ease-in-out 0.2s;
   }
-  /* line 173, src/sass/components/navbar.scss */
+  /* line 177, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link:hover:before {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  /* line 184, src/sass/components/navbar.scss */
+  /* line 188, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link.active {
     color: #fff !important;
     background: inherit;
   }
-  /* line 185, src/sass/components/navbar.scss */
+  /* line 189, src/sass/components/navbar.scss */
   .navbar .navbar-nav .nav-link.active:before {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  /* line 192, src/sass/components/navbar.scss */
+  /* line 196, src/sass/components/navbar.scss */
   .navbar {
     padding: 0;
   }
-  /* line 196, src/sass/components/navbar.scss */
+  /* line 200, src/sass/components/navbar.scss */
   .navbar-nav {
     margin-left: 0;
   }
-  /* line 200, src/sass/components/navbar.scss */
+  /* line 204, src/sass/components/navbar.scss */
   .navbar .navbar-collapse {
     background: transparent;
     padding: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 212, src/sass/components/navbar.scss */
+  .navbar .navbar-nav .nav-link {
+    padding: 2.5rem 0.7rem;
+    margin: 0 5px;
   }
 }
 
