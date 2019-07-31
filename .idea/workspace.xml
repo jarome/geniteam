@@ -3,12 +3,84 @@
   <component name="ChangeListManager">
     <list default="true" id="4e10dc3c-c090-48b8-b41f-fa35fdec53c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/Bg@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/arrow-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/bg1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/bg_tech.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/blog/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blog/blog2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/blog/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chevron-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chevron-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/client.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/C_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/clients/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dots-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/og_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/popup-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/process/Thumbs.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/process/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/process/popup-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rectangle-selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/select-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/2d-3d-animation-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/2d-3d-art-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/art-work-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/game-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/gamification-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/services/marketing-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/social/facebook-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/social/googleplus-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/social/instagram-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/social/twitter-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/gcloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/maya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/nodejs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/oculus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/photon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/scala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/unity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/unreal-engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/vive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/technologies/z-brush.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/testimonials/1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/testimonials/2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/testimonials/3.png" beforeDir="false" />
@@ -16,7 +88,10 @@
       <change beforePath="$PROJECT_DIR$/dist/img/testimonials/5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/testimonials/Thumbs.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/testimonials/popup-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/vendor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +141,7 @@
           <entry key="js" value="1097" />
           <entry key="json" value="143" />
           <entry key="md" value="19" />
-          <entry key="scss" value="2240" />
+          <entry key="scss" value="2244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -76,7 +151,7 @@
           <entry key="JavaScript" value="1097" />
           <entry key="Markdown" value="19" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="SCSS" value="2240" />
+          <entry key="SCSS" value="2244" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +161,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/components/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="270" column="24" selection-start-line="270" selection-start-column="24" selection-end-line="270" selection-end-column="24" />
+            <state relative-caret-position="312">
+              <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -254,8 +329,8 @@
         <option value="$PROJECT_DIR$/src/js/site.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/copy/index.html" />
-        <option value="$PROJECT_DIR$/src/sass/components/header.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/navbar.scss" />
+        <option value="$PROJECT_DIR$/src/sass/components/header.scss" />
       </list>
     </option>
   </component>
@@ -274,8 +349,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="177" />
+    <option name="x" value="120" />
+    <option name="y" value="130" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -532,12 +607,12 @@
       <workItem from="1564102500046" duration="7451000" />
       <workItem from="1564460934719" duration="20000" />
       <workItem from="1564474562004" duration="2130000" />
-      <workItem from="1564558367372" duration="2198000" />
+      <workItem from="1564558367372" duration="2991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50321000" />
+    <option name="totallyTimeSpent" value="51114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +624,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="177" width="1680" height="1027" extended-state="0" />
+    <frame x="120" y="130" width="1680" height="1027" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -841,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="270" column="24" selection-start-line="270" selection-start-column="24" selection-end-line="270" selection-end-column="24" />
+        <state relative-caret-position="312">
+          <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
         </state>
       </provider>
     </entry>
